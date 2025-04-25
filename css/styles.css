@@ -1,4 +1,27 @@
 .navbar{
     display: flex;
     justify-content: center;
+    background-color: #0068bf;
+    color:white;
+    margin: auto;
+    padding: 1em;
+}
+
+.navbar-container{
+    display:flex;
+}
+
+body{
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.nav-btn{
+    text-decoration: none;
+    color:white;
+    font-size: 20px;
+    padding-right:2%;
+}
+.nav-btn:hover{
+    text-decoration: underline;
 }
