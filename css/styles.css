@@ -1,27 +1,64 @@
-.navbar{
-    display: flex;
-    justify-content: center;
-    background-color: #0378fd;
-    color:white;
-    margin: auto;
-    padding: 1em;
-}
-
-.navbar-container{
-    display:flex;
-}
-
 body{
+    background-color: black;
     margin: 0;
-    font-family: sans-serif;
+}
+header, section{
+    margin: 0;
+    padding: 20px;
+}
+h1{
+    color: #ffff;
+    text-align: center;
+    font-family: Arial;
+}
+.subtítulo{
+    color: #ffff;
+    text-align: center;
+    font-family: Arial;
+    font-size: 20px;
+}
+header{
+    background-color: #033864;
+}
+.segunda-cor{
+    background-color: #1b5381;
+    padding: 20px
+}
+.titulo-chamada{
+    color: #ffff;
+    text-align: center;
+    font-size: 35px;
+    font-family: Arial;
+    font-weight: 800;
+}
+p + p{
+    margin-top: 36px;
+}
+.chamada{
+    color: #ffff;
+    width: 80ch;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 20px;
+    font-family: Arial;
+    margin-bottom: 20px;
 }
 
-.nav-btn{
-    text-decoration: none;
-    color:white;
-    font-size: 20px;
-    padding-right:2%;
+.button-one{
+    background-color: #ff9a00;
+    color: black;
+    font-family: Arial;
+    font-size: 15px;
+    font-weight: 550;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 6px;
+    cursor: pointer;
 }
-.nav-btn:hover{
-    text-decoration: underline;
+.button-one-center{
+    text-align: center;
+    transition: transform 0.2s ease;
+}
+.button-one-center:hover{
+    transform: translateY(-4px);
 }
