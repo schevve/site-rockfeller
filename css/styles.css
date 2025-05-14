@@ -1,53 +1,59 @@
-body{
+body {
     background-color: black;
     margin: 0;
+    font-family: Arial;
 }
-header, section{
+
+header,
+section,
+.promoções {
     margin: 0;
     padding: 20px;
 }
-h1{
+
+h1 {
     color: #ffff;
     text-align: center;
-    font-family: Arial;
 }
-.subtítulo{
+
+.subtítulo {
     color: #ffff;
     text-align: center;
-    font-family: Arial;
     font-size: 20px;
 }
-header{
+
+header {
     background-color: #033864;
 }
-.segunda-cor{
+
+.segunda-cor {
     background-color: #1b5381;
     padding: 20px
 }
-.titulo-chamada{
+
+.titulo-chamada {
     color: #ffff;
     text-align: center;
     font-size: 35px;
-    font-family: Arial;
     font-weight: 800;
 }
-p + p{
+
+p+p {
     margin-top: 36px;
 }
-.chamada{
+
+.chamada {
     color: #ffff;
     width: 80ch;
     margin: 0 auto;
     text-align: center;
     font-size: 20px;
-    font-family: Arial;
     margin-bottom: 20px;
 }
 
-.button-one{
+.button-one {
     background-color: #ff9a00;
     color: black;
-    font-family: Arial;
     font-size: 15px;
     font-weight: 550;
     border: none;
@@ -55,10 +61,68 @@ p + p{
     border-radius: 6px;
     cursor: pointer;
 }
-.button-one-center{
+
+.button-one-center {
     text-align: center;
     transition: transform 0.2s ease;
 }
-.button-one-center:hover{
+
+.button-one-center:hover {
     transform: translateY(-4px);
+}
+.promoções{
+    background-color: #ffffff;
+    text-align: center;
+}
+.promoções-especiais-título{
+    font-size: 20px;
+}
+.promoções-especiais-botão{
+    display: inline-block;
+    pointer-events: none;
+    padding: 10px 20px;
+    background-color: #ff9a00;
+    border-radius: 32px;
+    font-weight: 500;
+    animation: pulsar 2.5s infinite ease-in-out;
+}
+@keyframes pulsar{
+    0%, 100%{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(1.1);
+    }
+}
+.container{
+    display: flex;
+    gap: 20px;
+}
+.promoções-especiais-1{
+    background-color: aqua;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 01);
+}
+.titulo-promoções-especiais-1{
+    font-size: 20px;
+}
+.texto-promoções-especiais-1{
+    width: 31ch;
+    margin: 0 auto;
+
+}
+.botão-promoções-especiais-1{
+    display: inline-block;
+    color: white;
+    background-color: #1b5381;
+    padding: 10px 20px;
+    border-radius: 4px;
+    border: none;
+    text-align: center;
+    cursor: pointer;
+}
+.texto-promoções-especiais-1 + .botão-promoções-especiais-1{
+    margin-top: 50px;
 }
