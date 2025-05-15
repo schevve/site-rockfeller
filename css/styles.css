@@ -23,11 +23,11 @@ h1 {
 }
 
 header {
-    background-color: #033864;
+    background-color: #0378fd;
 }
 
 .segunda-cor {
-    background-color: #1b5381;
+    background-color: #033864;
     padding: 20px
 }
 
@@ -71,7 +71,7 @@ p+p {
     transform: translateY(-4px);
 }
 .promoções{
-    background-color: #ffffff;
+    background-color: #fcf3a1;
     text-align: center;
 }
 .promoções-especiais-título{
@@ -84,6 +84,7 @@ p+p {
     background-color: #ff9a00;
     border-radius: 32px;
     font-weight: 500;
+    margin-bottom: 20px;
     animation: pulsar 2.5s infinite ease-in-out;
 }
 @keyframes pulsar{
@@ -98,31 +99,39 @@ p+p {
     display: flex;
     gap: 20px;
 }
-.promoções-especiais-1{
-    background-color: aqua;
+.promoções-especiais{
+    background-color: white;
     padding: 20px;
     border-radius: 10px;
     width: 300px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 01);
 }
-.titulo-promoções-especiais-1{
+.titulo-promoções-especiais-1,
+.título-promoções-especiais-2,
+.título-promoções-especiais-3 {
     font-size: 20px;
 }
-.texto-promoções-especiais-1{
+.texto-promoções-especiais-1,
+.texto-promoções-especiais-2,
+.texto-promoções-especiais-3 {
     width: 31ch;
     margin: 0 auto;
 
 }
-.botão-promoções-especiais-1{
+.botão-promoções-especiais-1,
+.botão-promoções-especiais-2,
+.botão-promoções-especiais-3 {
     display: inline-block;
     color: white;
-    background-color: #1b5381;
+    background-color: #033864;
     padding: 10px 20px;
     border-radius: 4px;
     border: none;
     text-align: center;
     cursor: pointer;
 }
-.texto-promoções-especiais-1 + .botão-promoções-especiais-1{
+.texto-promoções-especiais-1 + .botão-promoções-especiais-1,
+.texto-promoções-especiais-2 + .botão-promoções-especiais-2,
+.texto-promoções-especiais-3 + .botão-promoções-especiais-3{
     margin-top: 50px;
 }
