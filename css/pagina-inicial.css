@@ -1,6 +1,7 @@
 body {
     background-color: black;
     margin: 0;
+    padding: 0;
     font-family: Arial;
 }
 
@@ -11,19 +12,83 @@ section,
     padding: 20px;
 }
 
-h1 {
-    color: #ffff;
-    text-align: center;
-}
-
-.subtítulo {
-    color: #ffff;
-    text-align: center;
-    font-size: 20px;
-}
-
 header {
     background-color: #0378fd;
+}
+
+.imagem-logo {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    height: 20px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 80px;
+}
+
+.nav-links li {
+    position: relative;
+}
+
+.nav-links li a {
+    color: white;
+    text-decoration: none;
+    font-family: "Amazon Ember", sans-serif;
+    font-size: 20px;
+    transition: color 0.3s;
+}
+
+.nav-links li a:hover {
+    color: #000000;
+}
+
+.opções>a::after {
+    content: " ▼";
+    font-size: 12px;
+    margin-left: 6px;
+    display: inline-block;
+    transition: transform 0.3s;
+}
+
+.opções:hover>a::after {
+    transform: rotate(180deg);
+}
+
+.opções-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #0378fd;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    min-width: 150px;
+    z-index: 1000;
+}
+
+.opções-menu li a {
+    padding: 10px;
+    display: block;
+    color: white;
+}
+
+.opções-menu li a:hover {
+    background-color: #ffff;
+}
+
+.nav-links li:hover .opções-menu {
+    display: block;
 }
 
 .segunda-cor {
@@ -57,9 +122,10 @@ p+p {
     font-size: 15px;
     font-weight: 550;
     border: none;
-    padding: 15px 30px;
+    padding: 8px 16px;
     border-radius: 6px;
     cursor: pointer;
+    text-decoration: none;
 }
 
 .button-one-center {
@@ -70,14 +136,17 @@ p+p {
 .button-one-center:hover {
     transform: translateY(-4px);
 }
-.promoções{
+
+.promoções {
     background-color: #fcf3a1;
     text-align: center;
 }
-.promoções-especiais-título{
+
+.promoções-especiais-título {
     font-size: 20px;
 }
-.promoções-especiais-botão{
+
+.promoções-especiais-botão {
     display: inline-block;
     pointer-events: none;
     padding: 10px 20px;
@@ -87,30 +156,42 @@ p+p {
     margin-bottom: 20px;
     animation: pulsar 2.5s infinite ease-in-out;
 }
-@keyframes pulsar{
-    0%, 100%{
+
+@keyframes pulsar {
+
+    0%,
+    100% {
         transform: scale(1);
     }
-    50%{
+
+    50% {
         transform: scale(1.1);
     }
 }
-.container{
+
+.container {
     display: flex;
-    gap: 20px;
+    justify-content: center;
+    gap: 30px;
+    padding: 40px 20px;
+    flex-wrap: wrap;
 }
-.promoções-especiais{
+
+.promoções-especiais {
     background-color: white;
     padding: 20px;
     border-radius: 10px;
-    width: 300px;
+    width: 280px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 01);
+    text-align: center;
 }
+
 .titulo-promoções-especiais-1,
 .título-promoções-especiais-2,
 .título-promoções-especiais-3 {
     font-size: 20px;
 }
+
 .texto-promoções-especiais-1,
 .texto-promoções-especiais-2,
 .texto-promoções-especiais-3 {
@@ -118,6 +199,7 @@ p+p {
     margin: 0 auto;
 
 }
+
 .botão-promoções-especiais-1,
 .botão-promoções-especiais-2,
 .botão-promoções-especiais-3 {
@@ -130,8 +212,9 @@ p+p {
     text-align: center;
     cursor: pointer;
 }
-.texto-promoções-especiais-1 + .botão-promoções-especiais-1,
-.texto-promoções-especiais-2 + .botão-promoções-especiais-2,
-.texto-promoções-especiais-3 + .botão-promoções-especiais-3{
+
+.texto-promoções-especiais-1+.botão-promoções-especiais-1,
+.texto-promoções-especiais-2+.botão-promoções-especiais-2,
+.texto-promoções-especiais-3+.botão-promoções-especiais-3 {
     margin-top: 50px;
 }
