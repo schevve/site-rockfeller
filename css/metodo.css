@@ -1,0 +1,46 @@
+.metodo {
+    margin: 0;
+    padding: 0;
+    background-color: #F8F9FA;
+    text-align: center;
+}
+
+.metodo-titulo {
+    margin-top: 10px;
+    margin-bottom: 15px;
+    font-size: 30px;
+    font-family: Arial;
+    font-weight: bold;
+}
+
+.metodo-exclusivo {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 40çx 20px;
+    flex-wrap: wrap;
+}
+
+.metodo-1,
+.metodo-2,
+.metodo-3,
+.metodo-4 {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 280px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 01);
+    text-align: center;
+}
+
+.metodo-1 img,
+.metodo-2 img,
+.metodo-3 img,
+.metodo-4 img {
+    width: 220px;
+    height: 180px;
+}
+
+.titulo-metodo-1+.texto-metodo-1 {
+    margin-top: 10px;
+}

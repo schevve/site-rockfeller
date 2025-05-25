@@ -1,3 +1,6 @@
+html{
+    background-color: #F8F9FA;
+}
 * {
     margin: 0;
     padding: 0;
@@ -164,7 +167,7 @@ header {
     }
 
     .imagem-logo img {
-        width: 100%;
+        width: 95%;
         height: auto;
         display: block;
     }
@@ -178,7 +181,7 @@ header {
     }
 
     .nav-links li a {
-        font-size: 13px !important;
+        font-size: 12px;
         padding: 2px 4px;
     }
 
@@ -186,5 +189,8 @@ header {
     .botao-teste-seu-ingles {
         margin: 0;
         padding: 0;
+    }
+    .botao-teste-seu-ingles{
+        font-size: 10px !important;
     }
 }
