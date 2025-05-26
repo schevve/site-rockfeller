@@ -9,7 +9,7 @@ html{
   box-sizing: border-box;
 }
 header {
-    background-color: #0378fd;
+    background-color: #000000;
     backdrop-filter: blur(5px);
     margin: 0;
     padding: 1%;
@@ -106,7 +106,7 @@ header {
     transition: background-color 1s, color 1s;
 }
 .botao-teste-seu-ingles:hover{
-    background-color: #ffe710;
+    background-color: #0378fd;
     color: black; 
     text-decoration: none;
 }

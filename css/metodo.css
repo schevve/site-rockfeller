@@ -6,8 +6,8 @@
 }
 
 .metodo-titulo {
-    margin-top: 10px;
-    margin-bottom: 15px;
+    margin-top: 30px;
+    margin-bottom: 35px;
     font-size: 30px;
     font-family: Arial;
     font-weight: bold;
@@ -31,6 +31,7 @@
     width: 280px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 01);
     text-align: center;
+    font-family: Arial;
 }
 
 .metodo-1 img,
@@ -41,6 +42,9 @@
     height: 180px;
 }
 
-.titulo-metodo-1+.texto-metodo-1 {
+.titulo-metodo-1+.texto-metodo-1,
+.titulo-metodo-2+.texto-metodo-2,
+.titulo-metodo-3+.texto-metodo-3,
+.titulo-metodo-4+.texto-metodo-4 {
     margin-top: 10px;
 }
