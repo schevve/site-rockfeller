@@ -1,0 +1,48 @@
+.select{
+    margin: 0;
+    padding: 0;
+    background-color: #F8F9FA;
+    text-align: center;
+    width: 100%;
+}
+.cards{
+    display: flex;
+    justify-content: center;
+    gap: 120px;
+    padding: 40px 20px;
+    flex-wrap: wrap;
+}
+.cards img {
+      width: 100%;
+      height: 450px;
+      border-radius: 25px;
+      padding: 0;
+        margin: 0;
+    }
+
+.kids,
+.teens,
+.adults{
+    padding: 20px;
+    border: 10px;
+    width: 280px;
+    height: auto;
+}
+.botao-quero-conhecer-os-cursos{
+    background-color: orange;
+    color: white;
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 0 auto;
+    border-radius: 35px;
+    font-size: larger;
+    font-family: arial;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    text-decoration: none;
+}
+
+.botao-quero-conhecer-os-cursos:hover{
+    background-color: darkorange;
+}
