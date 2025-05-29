@@ -1,0 +1,62 @@
+.select {
+    margin: 0;
+    padding: 0;
+    background-color: #F8F9FA;
+    text-align: center;
+    width: 100%;
+}
+
+.cards {
+    display: flex;
+    justify-content: left;
+    gap: 10px;
+    padding: 40px 20px;
+    flex-wrap: wrap;
+}
+
+.cards-kids {
+    position: relative;
+    width: 200px;
+    height: 300px;
+    text-align: center;
+    transform-style: preserve-3d;
+    transition: transform 0.8s;
+}
+
+.titulo-select,
+.texto-select {
+    max-width: 330px;
+}
+
+.titulo-select {
+    margin-top: 25px;
+    font-size: 35px;
+    font-weight: bold;
+    font-family: Arial;
+}
+
+.texto-select {
+    margin-top: 30px;
+    font-family: Arial;
+    font-size: 30px;
+}
+
+.botao-quero-conhecer-os-cursos {
+    background-color: orange;
+    color: white;
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 0 auto;
+    border-radius: 35px;
+    font-size: larger;
+    font-family: arial;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    text-decoration: none;
+    margin-top: 100px;
+}
+
+.botao-quero-conhecer-os-cursos:hover {
+    background-color: darkorange;
+}
