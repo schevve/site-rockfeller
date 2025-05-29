@@ -14,7 +14,9 @@
     flex-wrap: wrap;
 }
 
-.cards-kids {
+.cards-kids,
+.cards-teens,
+.cards-adults {
     position: relative;
     width: 200px;
     height: 300px;
