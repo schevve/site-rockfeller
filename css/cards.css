@@ -1,0 +1,53 @@
+/*
+    TROCAR ESSE VALOR PARA AJUSTAR A ALTURA DOS CARDS
+*/
+:root{
+    --height: 340px;
+}
+
+
+.card{
+    position: relative;
+    transform-style: preserve-3d;
+    transform: rotateY(0deg);
+    transition: transform 500ms ease-in-out;
+    width: 100%;
+    height: 10em;
+    perspective: 1000px;
+    height: inherit;
+}
+.card-front{
+    transform: rotateY(0deg);
+}
+.card-back{
+    background-color: bisque;
+    height: 100%;
+    transform: rotateY(180deg);
+}
+.card-static{
+    height: inherit;
+    width: 20%;
+    border-radius: 10em;
+    object-fit: cover;
+}
+.card-static:hover .card {
+    position: relative;
+    transform: rotateY(180deg);
+    transition: transform 500ms ease-in-out;
+}
+.card-front, .card-back{
+    width: 100%;
+    height: inherit;
+    position: absolute;
+    backface-visibility: hidden;
+}
+.cards-container{
+    display: flex;
+    gap: 2em;
+    justify-content: center;
+    height: var(--height);
+}
+.card-img{
+    max-height: 100%;
+    object-fit: cover;
+}
