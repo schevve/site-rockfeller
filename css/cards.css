@@ -10,7 +10,6 @@
         flex-direction: column;
     }
     .card-static{
-        width: 60% !important; 
     }
 }
 
@@ -27,9 +26,12 @@
 
 .card-front {
     transform: rotateY(0deg);
+    position: static;
 }
 
 .card-back {
+    top: 0;
+    position: absolute;
     background-color: bisque;
     height: 100%;
     transform: rotateY(180deg);
@@ -37,7 +39,6 @@
 
 .card-static {
     height: inherit;
-    width: 25%;
     border-radius: 10em;
     object-fit: cover;
     height: var(--height);
@@ -53,7 +54,6 @@
 .card-back {
     width: 100%;
     height: inherit;
-    position: absolute;
     backface-visibility: hidden;
 }
 
@@ -63,7 +63,6 @@
     justify-content: center;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: space-evenly;
     width: 100%;
 }
 
