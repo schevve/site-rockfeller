@@ -32,19 +32,6 @@
     transform: rotateY(180deg);
 }
 
-.card-static {
-    height: inherit;
-    width: 20%;
-    border-radius: 10em;
-    object-fit: cover;
-}
-
-.card-static:hover .card {
-    position: relative;
-    transform: rotateY(180deg);
-    transition: transform 500ms ease-in-out;
-}
-
 .card-front,
 .card-back {
     width: 100%;
@@ -57,7 +44,6 @@
     display: flex;
     gap: 2em;
     justify-content: center;
-    height: var(--height);
 }
 
 .card-img {
@@ -89,6 +75,7 @@
     display: inline-block;
     padding: 10px 20px;
     margin: 0 auto;
+    margin-bottom: 1em;
     border-radius: 35px;
     font-size: larger;
     font-family: arial;
@@ -101,4 +88,11 @@
 
 .botao-quero-conhecer-os-cursos:hover {
     background-color: darkorange;
+}
+
+.botao-texto{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
 }
