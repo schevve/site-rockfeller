@@ -1,0 +1,41 @@
+.footer {
+    background-color: #0378fd;
+    padding: 80px 0px;
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+    width: 100%;
+    gap: 70px;
+
+}
+
+a,
+.titulo-links {
+    text-decoration: none;
+    list-style: none;
+    color: white;
+}
+
+.contato {
+    color: white;
+    margin-left: 1100px;
+}
+
+.contato img {
+    margin-top: 25px;
+}
+
+.redes-sociais {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 10px
+}
+@media screen and (max-width: 768px) {
+    .footer{
+        gap: 30px;
+    }
+    .contato{
+        margin-left: 250px;
+    }
+}

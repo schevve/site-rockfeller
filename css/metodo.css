@@ -37,8 +37,8 @@
 .metodo-2 img,
 .metodo-3 img,
 .metodo-4 img {
-    width: 220px;
-    height: 180px;
+    width: 180px;
+    height: 125px;
 }
 
 .titulo-metodo-1+.texto-metodo-1,
@@ -46,4 +46,14 @@
 .titulo-metodo-3+.texto-metodo-3,
 .titulo-metodo-4+.texto-metodo-4 {
     margin-top: 10px;
+}
+
+
+@media screen and (max-width: 768px) {
+    .metodo-titulo {
+    margin-top: 0px;
+    font-size: 30px;
+    font-family: Arial;
+    font-weight: bold;
+}
 }
