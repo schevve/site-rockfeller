@@ -1,12 +1,12 @@
 .metodo {
     margin: 0;
     padding: 0;
-    background-color: #F8F9FA;
+    background-color: #0378FD;
     text-align: center;
 }
 
 .metodo-titulo {
-    margin-top: 30px;
+    margin-top: 0px;
     font-size: 30px;
     font-family: Arial;
     font-weight: bold;

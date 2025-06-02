@@ -9,8 +9,6 @@
     .cards-container{
         flex-direction: column;
     }
-    .card-static{
-    }
 }
 
 .card {

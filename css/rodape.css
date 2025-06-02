@@ -1,12 +1,11 @@
 .footer {
     background-color: #0378fd;
-    padding: 80px 0px;
+    padding: 15px 0px;
     position: relative;
     display: flex;
     align-items: flex-start;
     width: 100%;
     gap: 70px;
-
 }
 
 a,
@@ -18,7 +17,7 @@ a,
 
 .contato {
     color: white;
-    margin-left: 1100px;
+    margin-left: auto;
 }
 
 .contato img {
@@ -31,11 +30,19 @@ a,
     justify-content: center;
     gap: 10px
 }
+
 @media screen and (max-width: 768px) {
-    .footer{
+    .footer {
         gap: 30px;
     }
-    .contato{
-        margin-left: 250px;
+}
+
+@media screen and (max-width: 425px) {
+    .footer {
+        gap: 15px;
+    }
+
+    .imagem-footer {
+        display: none;
     }
 }

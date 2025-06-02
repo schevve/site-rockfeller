@@ -13,7 +13,7 @@
     font-family: arial;
     font-size: 15px;
     text-align: left;
-    width: 1100px;
+    width: 100%;
 }
 
 .texto-valores {
@@ -43,9 +43,11 @@
 .valores-exemplos+.texto-missao {
     margin-top: 15px;
 }
-
-@media screen and (max-width: 768px) {
-    .texto-historia {
-        width: 500px;
-    }
+.texto-historia,
+.texto-missao,
+.texto-valores,
+.valores-exemplos{
+    margin-left: 5px;
+    max-width: 1200px;
 }
+
