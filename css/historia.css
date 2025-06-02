@@ -22,32 +22,24 @@
     text-align: left;
 }
 
-.valores-exemplos {
-    font-family: Arial;
-    font-size: 15px;
-    text-align: left;
-    margin-left: 15px;
-}
-
 .texto-missao {
     font-family: Arial;
     font-size: 15px;
     text-align: left;
 }
 
-.texto-historia+.texto-valores,
-.texto-valores+.valores-exemplos {
+.texto-historia+.texto-valores {
     margin-top: 15px;
 }
 
 .valores-exemplos+.texto-missao {
     margin-top: 15px;
 }
+
 .texto-historia,
 .texto-missao,
 .texto-valores,
-.valores-exemplos{
+.valores-exemplos {
     margin-left: 5px;
     max-width: 1200px;
 }
-

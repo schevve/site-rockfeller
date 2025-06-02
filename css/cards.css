@@ -30,9 +30,10 @@
 .card-back {
     top: 0;
     position: absolute;
-    background-color: bisque;
+    background-color: #eb8a31;
     height: 100%;
     transform: rotateY(180deg);
+    border-radius: 30px;
 }
 
 .card-static {
@@ -57,7 +58,7 @@
 
 .cards-container {
     display: flex;
-    gap: 5px;
+    gap: 40px;
     justify-content: center;
     flex-wrap: wrap;
     align-items: center;
@@ -67,4 +68,5 @@
 .card-img {
     max-height: 100%;
     object-fit: cover;
+    border-radius: 30px;
 }

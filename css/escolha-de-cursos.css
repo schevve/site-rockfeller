@@ -1,7 +1,7 @@
 .select {
     margin: 0;
     padding: 0;
-    background-color: #FF9500;
+    background-color: #fbac3e;
     text-align: center;
     width: 100%;
 }
@@ -95,4 +95,29 @@
     flex-wrap: wrap;
     flex-direction: column;
     align-content: center;
+}
+.titulo-card{
+    text-align: center;
+    margin-top: 20px;
+    font-size: large;
+}
+.texto-card{
+    font-family: arial;
+    text-align: center;
+    margin-top: 60px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.botao-card{
+    background-color: #fbac3e;
+    color: black;
+    text-align: center;
+    padding: 1px 1px;
+    border-radius: 10px;
+    width: 150px;
+    margin-left: 25px;
+}
+.texto-card + .botao-card{
+    margin-top: 10px;
 }
