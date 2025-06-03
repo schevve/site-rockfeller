@@ -1,11 +1,18 @@
 .footer {
     background-color: #0378fd;
-    padding: 15px 0px;
+    padding: 15px 15px;
     position: relative;
     display: flex;
-    align-items: flex-start;
+    align-items: center;
     width: 100%;
     gap: 70px;
+}
+
+.footer-links{
+    align-self: flex-start;
+}
+.endereço{
+    text-align: justify;
 }
 
 a,
