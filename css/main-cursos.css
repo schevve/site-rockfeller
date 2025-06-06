@@ -8,17 +8,18 @@
     display: flex;
     margin: 2em;
     gap: 2em;
+    justify-content: center;
 }
 .descricao-cursos-metade{
-    width: 50%;
+    width: 30%;
 }
 .titulo-descricao{
-    font-size: 5em;
+    font-size: 3em;
     color: var(--orange);
     margin-bottom: 1rem;
 }
 .corpo-descricao{
-    font-size: 3em;
+    font-size: 2em;
 }
 .botao-descricao{
     font-size: 1.5em;
@@ -70,4 +71,46 @@
 }
 .livros-corpo{
     text-align: justify;
+}
+.secao-aplicativo{
+    color: white;
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+    margin: auto;
+    margin-top: 10em;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    background-color: var(--blue);
+}
+.secao-aplicativo-metade{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-around;
+    width: 25%;
+}
+.aplicativo-titulo{
+    width: 100%;
+    margin-bottom: 0.5em;
+    font-size: 2em;
+}
+.aplicativo-corpo{
+    margin-bottom: 0.5em;
+    text-align: justify;
+    font-size: 1.25em;
+}
+.aplicativo-botao{
+    box-sizing: border-box;
+    width: 40%;
+    padding: 0.5em;
+}
+.img-stores{
+    width: 100%;
+    display: block;
+    object-fit: contain;
+}
+.img-aplicativo{
+    width: 100%;
+    height: auto;
+    object-fit: contain;
 }
