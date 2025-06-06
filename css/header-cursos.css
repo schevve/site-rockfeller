@@ -31,6 +31,7 @@
 .imagem-textura-background-cursos{
     object-fit: cover;
     height: 100%;
+    transform: scaleX(-1); /*reflete horizontalmente a textura*/
 }
 .container-caracteristicas-cursos{
     grid-area: 2/1/3/2;
