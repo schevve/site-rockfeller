@@ -7,14 +7,15 @@
     <meta name="description" content="Veja os planos para crianças na rockfeller Toledo">
     <title>Kids - Rockfeller</title>
     <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/chamariz.css">
     <link rel="stylesheet" href="../css/kids.css">
     <link rel="stylesheet" href="../css/app.css">
     <link rel="stylesheet" href="../css/pre-matricula.css">
-    <link rel="stylesheet" href="../css/rodape.css">
-    <link rel="stylesheet" href="../css/chamariz.css">
     <link rel="stylesheet" href="../css/header-cursos.css">
     <link rel="stylesheet" href="../css/main-cursos.css">
     <link rel="stylesheet" href="../css/comentarios.css">
+    <link rel="stylesheet" href="../css/rodape.css">
+    <link rel="stylesheet" href="../css/whats-button.css">
     <script src="../js/carrosel.js" defer></script>
 </head>
 
@@ -76,7 +77,7 @@
                 <p class="corpo-descricao">
                     Nossos alunos aprendem inglês de maneira natural e envolvente.
                 </p>
-                <a class="botao-descricao" href="#">quero conhecer o método? praq serve esse botao fela da pita?</a>
+                <a class="botao-descricao" href="#matricula">Quero conhecer o método</a> <!-- esse botao serve pra levar ate a matricula @samuel-->
             </div>
             <div class="descricao-cursos-metade">
                 <img class="img-descricao" src="../Image/metodologia-adaptativa.png" alt="">
@@ -203,17 +204,64 @@
                     </div>
                 </div>
             </div>
+            <div class="botoes">
+                <button onclick="mover(-1)">⬅️</button>
+                <button onclick="mover(1)">➡️</button>
+            </div>
         </div>
-
-        <div class="botoes">
-            <button onclick="mover(-1)">⬅️</button>
-            <button onclick="mover(1)">➡️</button>
+        <div id="matricula" class="matricula">
+            <h2 class="titulo-matricula">Faça a matricula aqui:</h2>
+            <div class="conteudo-matricula">
+                <div class="texto-matricula">
+                    <p>Garanta já a vaga do seu filho!</p>
+                    <p>Preencha o formulário ao lado e entraremos em contato com mais informações.</p>
+                </div>
+                <form class="formulario-matricula">
+                    <input type="text" placeholder="Nome completo" required>
+                    <input type="email" placeholder="E-mail" required>
+                    <input type="tel" placeholder="Telefone" required>
+                    <button type="submit">Enviar</button>
+                </form>
+            </div>
         </div>
-
     </main>
-    <footer>
-
-    </footer>
+    <div class="footer">
+        <a href="pagina-incial.html">
+            <div class="imagem-footer"><img src="../Image/rockfeller-language-center-logotipo-topo.jpg"
+                    alt="Rockfeller logo" width="250"></div>
+        </a>
+        <ul class="footer-links">
+            <div class="titulo-links">
+                <li>Cursos</li>
+            </div>
+            <li><a href="kids.html">Inglês kids</a></li>
+            <li><a href="teens.html">Inglês teens</a></li>
+            <li><a href="adults.html">Inglês adults</a></li>
+            <li><a href="cursos.html">Todos os cursos</a></li>
+        </ul>
+        <div class="contato">
+            <div class="entre-em-contato">Entre em contato</div>
+            <div class="endereço">Teledo-PR - Bairro - Rua D. Pedro II - 1581</div>
+            <div class="telefone">(99) 99999-9999</div>
+            <ul class="redes-sociais">
+                <li><a
+                        href="https://api.whatsapp.com/send/?phone=5545984070294&text=Estou+entrando+em+contato+atrav%C3%A9s+do+site&type=phone_number&app_absent=0"><img
+                            src="../Image/whats.png" alt="whatsapp"></a></li>
+                <li><a href="https://www.instagram.com/rockfeller_toledo/"><img src="../Image/instagram.png"
+                            alt="instagram"></a></li>
+                <li><a href="https://www.youtube.com/c/CanaldaRock"><img src="../Image/youtube.png" alt="youtube"></a>
+                </li>
+                <li><a
+                        href="https://open.spotify.com/user/5cm4tudwti6oiqlcakdb2cc9w?si=b6af81910f874ddc&nd=1&dlsi=75ae929271a34986"><img
+                            src="../Image/spotify.png" alt="spotify"></a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="whatsapp-button">
+        <a href="https://wa.me/554591513548" target="_blank">
+            <img src="https://cdn-icons-png.flaticon.com/512/220/220236.png" alt="WhatsApp" />
+        </a>
+    </div>
 </body>
 
 </html>

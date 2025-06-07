@@ -1,0 +1,66 @@
+html {
+  scroll-behavior: smooth;
+}
+.matricula {
+  padding: 40px;
+  background-color: #FFD700;
+  border-radius: 10px;
+}
+
+.titulo-matricula {
+  text-align: right;
+  margin-bottom: 30px;
+  margin-right: 50px;
+  font-size: 40px;
+  font-weight: bold;
+}
+.texto-matricula p{
+    text-align: center;
+    font-family: Arial;
+    font-size: 25px;
+}
+
+.conteudo-matricula {
+  display: flex;
+  align-items: flex-start;
+  gap: 690px;
+  flex-wrap: wrap;
+  margin-left: 300px;
+}
+
+.texto-matricula {
+  flex: 1;
+  max-width: 400px;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.formulario-matricula {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  max-width: 400px;
+}
+
+.formulario-matricula input {
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.formulario-matricula button {
+  padding: 10px;
+  background-color: #003afa;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.formulario-matricula button:hover {
+  background-color: #e6c200;
+}
