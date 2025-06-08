@@ -32,7 +32,6 @@ html {
   flex: 1;
   max-width: 400px;
   font-size: 16px;
-  line-height: 1.6;
 }
 
 .formulario-matricula {
@@ -63,4 +62,41 @@ html {
 
 .formulario-matricula button:hover {
   background-color: #e6c200;
+}
+
+@media screen and (max-width: 1440px){
+    .conteudo-matricula{
+      margin-left: 150px;
+      gap: 380px;
+    }
+}
+
+@media screen and (max-width: 1024px){
+  .conteudo-matricula{
+      margin-left: 100px;
+      gap: 150px;
+    }
+}
+
+@media screen and (max-width: 768px){
+  .conteudo-matricula{
+      margin-left: 10px;
+      gap: 50px;
+    }
+    .texto-matricula p{
+      font-size: 20px;
+      max-width: 200px;
+    }
+    .titulo-matricula{
+      font-size: 28px;
+    }
+}
+
+@media screen and (max-width: 425px){
+    .conteudo-matricula p{
+      margin-left: 60px;
+    }
+    .conteudo-matricula h2{
+      margin-left: 40px;
+    }
 }

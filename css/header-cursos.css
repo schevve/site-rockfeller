@@ -82,3 +82,9 @@
     color: white;
     margin-bottom: 3rem;
 }
+
+@media screen and (max-width: 768px){
+    .imagem-textura-background-cursos{
+        width: 60%;
+    }
+}

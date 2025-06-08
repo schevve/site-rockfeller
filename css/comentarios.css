@@ -82,3 +82,23 @@
 .botoes button:hover {
     background-color: rgb(255, 230, 0);
 }
+
+@media screen and (max-width: 1024px){
+  .chamada-comentarios{
+      margin-left: 115px;
+    }
+}
+@media screen and (max-width: 768px){
+    .comentarios-container{
+        max-width: 530px;
+    }
+}
+@media screen and (max-width: 425px){
+    .comentarios-container{
+        max-width: 260px;
+    }
+    .chamada-comentarios{
+        margin-left: 60px;
+        font-size: 25px;
+    }
+}
