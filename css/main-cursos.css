@@ -1,40 +1,48 @@
-:root{
+:root {
     --orange: #FF9500;
     --blue: #0378FD;
     --dark-blue: #033864;
     --yellow: #FFE710;
 }
-.descricao-cursos{
+
+.descricao-cursos {
     display: flex;
     margin: 2em;
     gap: 2em;
     justify-content: center;
 }
-.descricao-cursos-metade{
+
+.descricao-cursos-metade {
     width: 30%;
 }
-.titulo-descricao{
+
+.titulo-descricao {
     font-size: 3em;
     color: var(--orange);
     margin-bottom: 1rem;
 }
-.corpo-descricao{
+
+.corpo-descricao {
     font-size: 2em;
 }
-.botao-descricao{
+
+.botao-descricao {
     font-size: 1.5em;
     background-color: var(--orange);
 }
-.img-descricao{
+
+.img-descricao {
     height: 100%;
     width: 100%;
     object-fit: cover;
     border-radius: 1em;
 }
-.corpo-descricao + .corpo-descricao{
+
+.corpo-descricao+.corpo-descricao {
     margin-top: 0.5em;
 }
-.secao-livros-cursos{
+
+.secao-livros-cursos {
     color: white;
     display: flex;
     justify-content: center;
@@ -42,37 +50,42 @@
     padding-top: 1em;
     padding-bottom: 1em;
 }
-.container-livros-cursos{
+
+.container-livros-cursos {
     width: 60%;
     display: flex;
     justify-content: center;
     gap: 1em;
     flex-wrap: wrap;
 }
-.livros-cursos{
+
+.livros-cursos {
     width: 30%;
-    height: 22em;
-    background: linear-gradient(118deg,rgba(88, 149, 219, 1) 0%, rgba(20, 113, 219, 1) 50%, rgba(88, 149, 219, 1) 100%);
+    height: 24em;
+    background: linear-gradient(118deg, rgba(88, 149, 219, 1) 0%, rgba(20, 113, 219, 1) 50%, rgba(88, 149, 219, 1) 100%);
     padding: 1em;
     border-radius: 0.5em;
     border-color: white;
     border-style: solid;
     border-width: 0.1em;
 }
-.livros-titulo{
 
-}
-.livros-subtitulo{
+.livros-titulo {}
+
+.livros-subtitulo {
     font-size: 1em;
 }
-.livros-img{
+
+.livros-img {
     width: 100%;
     box-sizing: border-box;
 }
-.livros-corpo{
+
+.livros-corpo {
     text-align: justify;
 }
-.secao-aplicativo{
+
+.secao-aplicativo {
     color: white;
     display: flex;
     justify-content: center;
@@ -83,34 +96,85 @@
     padding-bottom: 2em;
     background-color: var(--blue);
 }
-.secao-aplicativo-metade{
+
+.secao-aplicativo-metade {
     display: flex;
     flex-wrap: wrap;
     align-content: space-around;
     width: 25%;
 }
-.aplicativo-titulo{
+
+.aplicativo-titulo {
     width: 100%;
     margin-bottom: 0.5em;
     font-size: 2em;
 }
-.aplicativo-corpo{
+
+.aplicativo-corpo {
     margin-bottom: 0.5em;
     text-align: justify;
     font-size: 1.25em;
 }
-.aplicativo-botao{
+
+.aplicativo-botao {
     box-sizing: border-box;
     width: 40%;
     padding: 0.5em;
 }
-.img-stores{
+
+.img-stores {
     width: 100%;
     display: block;
     object-fit: contain;
 }
-.img-aplicativo{
+
+.img-aplicativo {
     width: 100%;
     height: auto;
     object-fit: contain;
+}
+
+@media screen and (max-width: 768px) {
+    .img-descricao {
+        height: 90%;
+        width: 95%;
+    }
+
+    .descricao-cursos-metade {
+        width: 100%;
+        text-align: center;
+    }
+
+    .container-livros-cursos {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .img-descricao {
+        display: none;
+    }
+
+    .secao-livros-cursos {
+        display: none;
+    }
+
+    .botao-descricao {
+        font-size: 1.1em;
+    }
+
+    .img-aplicativo {
+        display: none;
+    }
+
+    .aplicativo-titulo {
+        width: 100%;
+        margin-bottom: 0.5em;
+        font-size: 1.5em;
+    }
+
+    .aplicativo-corpo {
+        text-align: justify;
+        font-size: 1em;
+    }
 }
