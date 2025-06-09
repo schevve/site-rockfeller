@@ -66,7 +66,7 @@
 .texto-caracteristicas{
     font-size: 1.5em;
     color: white;
-    padding: 1em;
+    padding: 1em 1em 0em 1em;
     text-align: center;
     font-weight: bold;
 }
