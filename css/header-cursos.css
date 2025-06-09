@@ -31,6 +31,7 @@
 .imagem-textura-background-cursos{
     object-fit: cover;
     height: 100%;
+    max-width: 100%;
     transform: scaleX(-1); /*reflete horizontalmente a textura*/
 }
 .container-caracteristicas-cursos{
@@ -50,7 +51,7 @@
     margin-bottom: 1em;
     border-radius: 1em;
     width: 15em;
-    height: 19em;
+    height: 22em;
     background: linear-gradient(118deg,rgba(88, 149, 219, 1) 0%, rgba(20, 113, 219, 1) 50%, rgba(88, 149, 219, 1) 100%);
     
     border-color: rgba(255, 255, 255, 0.7);
