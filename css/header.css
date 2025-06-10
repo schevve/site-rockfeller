@@ -4,6 +4,8 @@ html{
 * {
     margin: 0;
     padding: 0;
+
+    font-family: 'Poppins', sans-serif;
 }
 *, *::before, *::after {
   box-sizing: border-box;
@@ -49,7 +51,7 @@ header {
 .nav-links li a {
     color: white;
     text-decoration: none;
-    font-family: "Amazon Ember", sans-serif;
+    /* font-family: "Amazon Ember", sans-serif; */
     font-size: 20px;
     transition: color 0.3s;
 }
@@ -65,7 +67,6 @@ header {
     background-color: #00000096;
     left: 0;
     top: 100%;
-    display: block;
 }
 
 .mobile-navbar-icone{
@@ -80,9 +81,6 @@ header {
     display: block;
     font-size: 1em;
     padding: 1em;
-}
-
-.mobile-navbar-items > a + a{
     border-style: solid;
     border-width: 0em;
     border-top-width: 0.1em;

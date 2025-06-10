@@ -60,12 +60,12 @@
     margin-top: 25px;
     font-size: 35px;
     font-weight: bold;
-    font-family: Arial;
+    /* font-family: Arial; */
 }
 
 .texto-select {
     margin-top: 30px;
-    font-family: Arial;
+    /* font-family: Arial; */
     font-size: 25px;
 }
 
@@ -78,7 +78,7 @@
     margin-bottom: 1em;
     border-radius: 35px;
     font-size: larger;
-    font-family: arial;
+    /* font-family: arial; */
     font-weight: bold;
     cursor: pointer;
     transition: background-color 0.3s;
@@ -102,7 +102,7 @@
     font-size: large;
 }
 .texto-card{
-    font-family: arial;
+    /* font-family: arial; */
     text-align: center;
     margin-top: 60px;
     margin-left: 15px;
