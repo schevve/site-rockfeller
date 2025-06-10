@@ -17,7 +17,7 @@
 }
 
 .descricao-cursos-metade {
-    width: 30%;
+    width: 40%;
 }
 
 .titulo-descricao {
@@ -161,6 +161,11 @@
         width: 95%;
     }
 
+    .descricao-cursos{
+        gap: 0;
+        flex-direction: column-reverse;
+    }
+
     .descricao-cursos-metade {
         width: 100%;
         text-align: center;
@@ -178,12 +183,8 @@
         width: 100%;
     }
 
-    .descricao-cursos{
-        gap: 0;
-    }
-
     .descricao-cursos-metade.foto{
-        flex: 0;
+        /*flex: 0;*/
     }
 
     .secao-aplicativo{
