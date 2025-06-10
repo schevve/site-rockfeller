@@ -2,7 +2,6 @@
 <html>
 
 <head>
-    <!-- https://www.figma.com/design/MymPBIrmpY5ENBaBPlONOo/Rockfeller?node-id=0-1&p=f&t=2F5UXlDO6KNpsW6X-0 link do figma 👍 -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Veja os planos para adultos na rockfeller Toledo">
     <meta name="keywords"
@@ -17,7 +16,9 @@
     <link rel="stylesheet" href="../css/rodape.css">
     <link rel="stylesheet" href="../css/popup.css">
     <link rel="stylesheet" href="../css/whats-button.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="../js/popup.js"></script>
+    <script src="../js/mobile_navbar.js"></script>
 </head>
 
 <body>
@@ -34,6 +35,9 @@
                             width="250">
                     </a>
                 </div>
+                <a class="mobile-navbar-icone" onclick="mobileNavbar()">
+                        <span class="fa fa-bars"></span>
+                </a>
                 <ul class="nav-links">
                     <li class="opçoes-cursos">
                         <a href="cursos.html">Cursos</a>
@@ -48,6 +52,14 @@
                         <a href="teste-seu-ingles" class="botao-teste-seu-ingles">Teste seu inglês</a>
                     </li>
                 </ul>
+                <div class="mobile-navbar-container" id="mobileNavbar">
+                    <div class="mobile-navbar-items">
+                        <a href="kids.html">Kids</a>
+                        <a href="teens.html">Teens</a>
+                        <a href="adults.html">Adults</a>
+                        <a href="cursos.html">Todos os cursos</a>
+                    </div>
+                </div>
             </nav>
         </header>
     </div>

@@ -56,6 +56,25 @@ header {
     color: #000000;
 }
 
+.mobile-navbar-container{
+    display: none;
+    width: 100%;
+}
+
+.mobile-navbar-icone{
+    display: none;
+    font-size: 2em;
+}
+
+.mobile-navbar-items{
+}
+
+.mobile-navbar-items > a{
+    display: block;
+    font-size: 1em;
+    padding: 1em;
+}
+
 .opçoes-cursos>a::after {
     content: " ▼";
     font-size: 12px;
@@ -113,6 +132,7 @@ header {
 @media screen and (max-width: 768px) {
     .nav-links {
         gap: 20px;
+        display: none;
     }
 
     .nav-links li a {
@@ -122,6 +142,14 @@ header {
     .imagem-logo img {
         width: 85%;
         height: auto;
+        display: block;
+    }
+
+    .navbar{
+        flex-wrap: wrap;
+    }
+
+    .mobile-navbar-icone{
         display: block;
     }
 }
@@ -172,7 +200,8 @@ header {
     }
 
     .nav-links {
-        display: flex;
+        /*display: flex;*/
+        display: none;
         gap: 4px !important;
         padding: 0;
         margin: 0;
