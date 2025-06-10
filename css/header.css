@@ -9,14 +9,12 @@ html{
   box-sizing: border-box;
 }
 header {
-    background-color: #000000;
+    background-color: #ffe710;
     backdrop-filter: blur(5px);
     margin: 0;
-    padding: 1em;
     width: 100%;
     position: relative;
     z-index: 1;
-    opacity: 0.7;
 }
 
 .imagem-logo {
@@ -28,9 +26,13 @@ header {
 
 .navbar {
     display: flex;
+    grid-area: 1/1/1/1;
     width: 100%;
     justify-content: space-between;
     align-items: center;
+    padding: 0em 1em 0em 1em;
+    background-color: #00000096;
+    position: relative;
 }
 
 .nav-links {
@@ -59,6 +61,11 @@ header {
 .mobile-navbar-container{
     display: none;
     width: 100%;
+    position: absolute;
+    background-color: #00000096;
+    left: 0;
+    top: 100%;
+    display: block;
 }
 
 .mobile-navbar-icone{
@@ -73,6 +80,12 @@ header {
     display: block;
     font-size: 1em;
     padding: 1em;
+}
+
+.mobile-navbar-items > a + a{
+    border-style: solid;
+    border-width: 0em;
+    border-top-width: 0.1em;
 }
 
 .opçoes-cursos>a::after {
@@ -176,7 +189,6 @@ header {
         box-sizing: border-box
     }
     header {
-        padding: 2% 4%;
     }
 
     .navbar {
