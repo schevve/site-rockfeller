@@ -19,6 +19,7 @@
     display: none;
     justify-content: center;
     gap: 2em;
+    flex-direction: row;
     /* para mostrar só o kids inicialmente */
 }
 
@@ -28,6 +29,8 @@
 
 .conheca-img{
     width: 40%;
+    object-fit: contain;
+    margin-bottom: 1em !important;
 }
 
 .conheca-conteudo-overtitulo{
@@ -71,4 +74,31 @@
 
 .conheca-botao:hover{
     background-color: #e8e8e8;
+}
+
+@media screen and (max-width: 768px) {
+    .conheca-botoes-container{
+        display: none;
+    }
+    .conheca-titulo{
+        margin-bottom: 1em;
+    }
+    .conheca-conteudo{
+        display: flex;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .conheca-conteudo{
+        flex-direction: column-reverse;
+    }
+    
+    .conheca-conteudo-texto{
+        width: 90%;
+        margin: auto;
+    }
+    .conheca-img{
+        width: 90%;
+        margin: auto;
+    }
 }
