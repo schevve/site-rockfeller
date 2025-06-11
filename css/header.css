@@ -1,5 +1,6 @@
 html{
-    background-color: #F8F9FA;
+    /* background-color: #F8F9FA; */
+    
 }
 * {
     margin: 0;
@@ -32,7 +33,7 @@ header {
     width: 100%;
     justify-content: space-between;
     align-items: center;
-    padding: 0em 1em 0em 1em;
+    padding: 1em;
     background-color: #00000096;
     position: relative;
 }
