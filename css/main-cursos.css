@@ -5,6 +5,10 @@
     --yellow: #FFE710;
 }
 
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
 .descricao-cursos {
     display: flex;
     margin: 2em;
@@ -13,7 +17,7 @@
 }
 
 .descricao-cursos-metade {
-    width: 30%;
+    width: 40%;
 }
 
 .titulo-descricao {
@@ -61,13 +65,28 @@
 
 .livros-cursos {
     width: 30%;
-    height: 24em;
+    /*height: 24em;*/
     background: linear-gradient(118deg, rgba(88, 149, 219, 1) 0%, rgba(20, 113, 219, 1) 50%, rgba(88, 149, 219, 1) 100%);
     padding: 1em;
     border-radius: 0.5em;
     border-color: white;
     border-style: solid;
     border-width: 0.1em;
+    flex-grow: 1;
+}
+
+.livros-cursos.principal-60{
+    width: 65%;    
+    flex-grow: 0.5;
+    background: none;
+    border: 0;
+    background-color: var(--blue);
+}
+
+.livros-cursos.principal-30{
+    background: none;
+    border: 0;
+    background-color: var(--blue);
 }
 
 .livros-titulo {}
@@ -83,6 +102,7 @@
 
 .livros-corpo {
     text-align: justify;
+    margin-bottom: 0.5em;
 }
 
 .secao-aplicativo {
@@ -101,7 +121,7 @@
     display: flex;
     flex-wrap: wrap;
     align-content: space-around;
-    width: 25%;
+    width: 35%;
 }
 
 .aplicativo-titulo {
@@ -114,6 +134,7 @@
     margin-bottom: 0.5em;
     text-align: justify;
     font-size: 1.25em;
+    width: 100%;
 }
 
 .aplicativo-botao {
@@ -140,13 +161,40 @@
         width: 95%;
     }
 
+    .descricao-cursos{
+        gap: 0;
+        flex-direction: column-reverse;
+    }
+
     .descricao-cursos-metade {
         width: 100%;
         text-align: center;
     }
 
+    .corpo-descricao{
+        text-align: justify;
+    }
+
     .container-livros-cursos {
         width: 90%;
+    }
+
+    .livros-cursos{
+        width: 100%;
+    }
+
+    .descricao-cursos-metade.foto{
+        /*flex: 0;*/
+    }
+
+    .secao-aplicativo{
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .secao-aplicativo-metade{
+        width: 70%;
+        justify-content: center;
     }
 }
 
@@ -164,7 +212,7 @@
     }
 
     .img-aplicativo {
-        display: none;
+        /*display: none;*/
     }
 
     .aplicativo-titulo {
@@ -176,5 +224,9 @@
     .aplicativo-corpo {
         text-align: justify;
         font-size: 1em;
+    }
+
+    .aplicativo-botao{
+        width: 50%;
     }
 }

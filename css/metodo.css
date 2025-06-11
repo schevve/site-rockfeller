@@ -6,10 +6,12 @@
 }
 
 .metodo-titulo {
+    padding-top: 1em;
     margin-top: 0px;
     font-size: 30px;
-    font-family: Arial;
+    /* font-family: Arial; */
     font-weight: bold;
+    color: white;
 }
 
 .metodo-exclusivo {
@@ -30,7 +32,7 @@
     width: 280px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 01);
     text-align: center;
-    font-family: Arial;
+    /* font-family: Arial; */
 }
 
 .metodo-1 img,
@@ -53,7 +55,7 @@
     .metodo-titulo {
     margin-top: 0px;
     font-size: 30px;
-    font-family: Arial;
+    /* font-family: Arial; */
     font-weight: bold;
 }
 }
