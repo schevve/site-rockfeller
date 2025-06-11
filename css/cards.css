@@ -2,7 +2,7 @@
     TROCAR ESSE VALOR PARA AJUSTAR A ALTURA DOS CARDS
 */
 :root {
-    --height: 340px;
+    --height: 30em;
 }
 
 @media screen and (max-width: 768px) {
@@ -43,6 +43,7 @@
     border-radius: 10em;
     object-fit: cover;
     height: var(--height);
+    width: 15em;
 }
 
 .card-static:hover .card {
@@ -68,7 +69,8 @@
 }
 
 .card-img {
-    max-height: 100%;
+    height: 100%;
+    width: 100%;
     object-fit: cover;
     border-radius: 30px;
 }
