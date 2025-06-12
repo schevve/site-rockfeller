@@ -15,6 +15,15 @@
     object-fit: cover;
     z-index: 0;
 }
+
+.imagem-chamariz-mobile{
+    display: none;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 0;
+}
+
 @media screen and (max-width: 1440px) {
     .imagem-chamariz {
         margin-top: 0px;
@@ -24,7 +33,6 @@
     }
 
     .chamariz {
-        
     }
 }
 @media screen and (max-width: 1024px) {
@@ -41,24 +49,17 @@
 }
 @media screen and (max-width: 768px) {
     .imagem-chamariz {
-        margin-top: 0px;
+        /* margin-top: 0px;
         background-position: center;
         height: 100%;
-        object-fit: cover;
+        object-fit: cover; */
+        display: none;
     }
 
-    .chamariz {
-       
+    .imagem-chamariz-mobile{
+        display: block;
     }
 }
 
 @media screen and (max-width: 425px) {
-    .imagem-chamariz {
-        max-width: 100%;
-        height: 150px;
-        display: block;
-    }
-    .chamariz{
-     
-    }
 }
