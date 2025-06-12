@@ -50,6 +50,9 @@
     margin-top: 10px;
 }
 
+.metodo-img{
+    object-fit: contain;
+}
 
 @media screen and (max-width: 768px) {
     .metodo-titulo {
