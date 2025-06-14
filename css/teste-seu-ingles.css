@@ -64,4 +64,8 @@
     .teste-img{
         filter: brightness(0.3);
     }
+
+    .teste-conteudo{
+        margin-left: 1em;
+    }
 }
