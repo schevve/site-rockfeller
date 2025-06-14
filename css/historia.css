@@ -6,6 +6,8 @@
 .titulo-historia {
     font-size: 35px;
     text-align: center;
+    color: var(--orange);
+    font-weight: bold;
     /* font-family: Arial; */
 }
 
