@@ -4,15 +4,21 @@
     position: relative;
     display: flex;
     align-items: center;
+    justify-content: space-between;
     width: 100%;
     gap: 70px;
 }
 
 .footer-links{
     align-self: flex-start;
+    margin-left: 1em;
 }
 .endereço{
     text-align: justify;
+}
+
+.titulo-links{
+    font-weight: 600;
 }
 
 a,
@@ -42,14 +48,29 @@ a,
     .footer {
         gap: 30px;
     }
-}
 
-@media screen and (max-width: 425px) {
-    .footer {
-        gap: 15px;
+    .contato{
+        width: 50%;
+        margin-left: 0;
+        margin-top: 1em;
     }
 
     .imagem-footer {
         display: none;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .footer {
+        gap: 0;
+        flex-direction: column;
+    }
+
+    .contato{
+        text-align: center;
+        width: 100%;
+    }
+    .endereço{
+        text-align: center;
     }
 }
