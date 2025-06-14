@@ -13,18 +13,36 @@
 
 .conheca-conteudo-container{
     width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.conheca-conteudo-animation-container{
+    display: flex;
+    width: inherit;
+    position: absolute;
+    left: 100%;
+    transition-duration: 800ms;
 }
 
 .conheca-conteudo{
-    display: none;
+    display: flex;
     justify-content: center;
     gap: 2em;
     flex-direction: row;
+    width: inherit;
+    position: absolute;
     /* para mostrar só o kids inicialmente */
 }
 
 #conhecaKids{
-    display: flex;
+    left: -100%;
+}
+#conhecaTeens{
+    left: 0%;
+}
+#conhecaAdults{
+    left: 100%;
 }
 
 .conheca-img{
@@ -59,6 +77,7 @@
 .conheca-botoes-container{
     width: 100%;
     text-align: center;
+    margin-bottom: 1em;
 }
 
 .conheca-botao{
@@ -86,8 +105,14 @@
     .conheca-titulo{
         margin-bottom: 1em;
     }
+    .conheca-conteudo-animation-container{
+        position: static;
+        flex-wrap: wrap;
+    }
     .conheca-conteudo{
         display: flex;
+        position: static;
+        margin-top: 2em;
     }
 }
 
@@ -107,6 +132,9 @@
 }
 
 @media screen and (min-width: 1024px) {
+    .conheca-conteudo-container{
+        height: 20em;
+    }
     .conheca-conteudo{
         height: 20em;
     }
