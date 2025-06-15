@@ -18,6 +18,8 @@
 
 .descricao-cursos-metade {
     width: 40%;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .titulo-descricao {
@@ -27,7 +29,11 @@
 }
 
 .corpo-descricao {
-    font-size: 2em;
+    font-size: 25px;
+}
+
+.corpo-descricao > strong{
+    font-weight: 500;
 }
 
 .botao-descricao {
@@ -158,7 +164,12 @@
 @media screen and (max-width: 768px) {
     .img-descricao {
         height: 90%;
-        width: 95%;
+        width: 100%;
+    }
+
+    .titulo-descricao{
+        width: 100%;
+        margin-top: 1em;
     }
 
     .descricao-cursos{
@@ -169,10 +180,16 @@
     .descricao-cursos-metade {
         width: 100%;
         text-align: center;
+        justify-content: center;
     }
 
     .corpo-descricao{
+        width: 100%;
         text-align: justify;
+    }
+
+    .botao-descricao{
+        margin-top: 1em;
     }
 
     .container-livros-cursos {
