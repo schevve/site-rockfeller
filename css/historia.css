@@ -1,21 +1,34 @@
 .historia {
     padding: 0;
     margin-top: 5em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .titulo-historia {
+    width: 100%;
     font-size: 35px;
     text-align: center;
     color: var(--orange);
     font-weight: bold;
-    /* font-family: Arial; */
+    justify-self: center;
+    margin-bottom: 30px;
 }
 
 .texto-historia {
-    /* font-family: arial; */
-    font-size: 15px;
+    font-size: 1.2em;
     text-align: left;
-    width: 100%;
+    width: 80%;
+    text-align: justify;
+}
+
+.paragrafo-historia{
+
+}
+
+.paragrafo-historia + .paragrafo-historia{
+    margin-top: 1em;
 }
 
 .texto-valores {
@@ -42,6 +55,5 @@
 .texto-missao,
 .texto-valores,
 .valores-exemplos {
-    margin-left: 5px;
     max-width: 1200px;
 }
