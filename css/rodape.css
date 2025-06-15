@@ -11,8 +11,9 @@
 }
 
 .footer-links{
-    align-self: flex-start;
-    margin-left: 1em;
+    text-align: center;
+    align-self: center;
+    list-style-type: none;
 }
 .endereço{
     text-align: justify;
@@ -53,6 +54,9 @@ a,
     .contato{
         width: 50%;
         margin-left: 0;
+        margin-top: 2em;
+    }
+    .footer-links{
         margin-top: 1em;
     }
 

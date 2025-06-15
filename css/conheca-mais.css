@@ -14,7 +14,8 @@
 .conheca-conteudo-container{
     width: 100%;
     position: relative;
-    overflow: hidden;
+    overflow-x: hidden;
+    overflow-y: visible;
 }
 
 .conheca-conteudo-animation-container{
@@ -32,7 +33,6 @@
     flex-direction: row;
     width: inherit;
     position: absolute;
-    /* para mostrar só o kids inicialmente */
 }
 
 #conhecaKids{
@@ -150,11 +150,11 @@
     }
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 769px) {
     .conheca-conteudo-container{
-        height: 25em;
+        height: 30em;
     }
     .conheca-conteudo{
-        height: 25em;
+        height: 30em;
     }
 }
