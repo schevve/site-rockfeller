@@ -9,13 +9,12 @@
     display: grid;
     grid-template-columns: 5fr 6fr;
     grid-template-rows: auto;
-
     margin-top: 2em;
     margin-bottom: 4em;
 }
 
 .teste-conteudo{
-    color:white;
+    color:black;
     grid-area: 1/1/1/1;
     display: flex;
     flex-wrap: wrap;

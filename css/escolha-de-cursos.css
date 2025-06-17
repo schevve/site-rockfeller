@@ -61,7 +61,7 @@
 }
 
 .titulo-select {
-    color: var(--orange);
+    color: var(--blue);
     margin-top: 25px;
     font-size: 35px;
     font-weight: bold;
@@ -75,7 +75,7 @@
 }
 
 .botao-quero-conhecer-os-cursos {
-    background-color: orange;
+    background-color: var(--blue);
     color: white;
     display: inline-block;
     padding: 10px 20px;
@@ -92,7 +92,7 @@
 }
 
 .botao-quero-conhecer-os-cursos:hover {
-    background-color: darkorange;
+    background-color: var(--dark-blue);
 }
 
 .botao-texto{
@@ -100,6 +100,7 @@
     flex-wrap: wrap;
     flex-direction: column;
     align-content: center;
+    align-items: center;
 }
 .titulo-card{
     text-align: center;
@@ -116,8 +117,6 @@
 }
 
 .botao-card{
-    background-color: #fbac3e;
-    color: black;
     text-align: center;
     margin: auto;
     padding: 1px 1px;
