@@ -5,10 +5,6 @@
     --yellow: #FFE710;
 }
 
-*{
-    font-family: 'Poppins', sans-serif;
-}
-
 .descricao-cursos {
     display: flex;
     margin: 2em;

@@ -6,7 +6,8 @@ html{
     margin: 0;
     padding: 0;
 
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Verlag', 'Poppins', sans-serif;
+    font-size-adjust: 0.5;
 }
 *, *::before, *::after {
   box-sizing: border-box;
@@ -54,11 +55,6 @@ header {
     text-decoration: none;
     /* font-family: "Amazon Ember", sans-serif; */
     font-size: 20px;
-    transition: color 0.3s;
-}
-
-.nav-links li a:hover {
-    color: #000000;
 }
 
 .mobile-navbar-container{
@@ -127,7 +123,7 @@ header {
 }
 
 .botao-teste-seu-ingles{
-    background-color: #000000;
+    background-color: var(--blue);
     color: white;
     padding: 5px;
     border: none;
@@ -136,8 +132,7 @@ header {
     transition: background-color 1s, color 1s;
 }
 .botao-teste-seu-ingles:hover{
-    background-color: #0378fd;
-    color: black; 
+    background-color: var(--dark-blue);
     text-decoration: none;
 }
 
