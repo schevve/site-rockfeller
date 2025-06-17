@@ -10,9 +10,13 @@
 }
 
 .footer-links{
-    text-align: center;
+    text-align: left;
     align-self: center;
     list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    
 }
 .endereço{
     text-align: justify;
@@ -29,9 +33,16 @@ a,
     color: white;
 }
 
+a:hover {
+    text-decoration: underline;
+}
+
 .contato {
     color: white;
     margin-left: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
 }
 
 .contato img {
