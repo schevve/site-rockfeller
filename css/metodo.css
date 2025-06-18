@@ -1,7 +1,7 @@
 .metodo {
     margin: 0;
     padding: 0;
-    background-color: #0378FD;
+    background-color: #0068DF;
     text-align: center;
 }
 
@@ -30,7 +30,7 @@
     padding: 20px;
     border-radius: 10px;
     width: 280px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 01);
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 01); */
     text-align: center;
     /* font-family: Arial; */
 }
