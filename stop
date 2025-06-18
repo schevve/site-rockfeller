@@ -1,0 +1,496 @@
+[33mcommit 29aea03eeef937d3abaa8e5ddc627b0cd6c24623[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m
+Author: edumu <eduardoaum2007@gmail.com>
+Date:   Mon Jun 16 23:15:10 2025 -0300
+
+    numero do whats
+
+[33mcommit 19c0e1c7078ae907f33284ca38232716f547cecf[m
+Author: edumu <eduardoaum2007@gmail.com>
+Date:   Mon Jun 16 23:04:01 2025 -0300
+
+    href conheça os materiais
+
+[33mcommit d070c4e2106605da376c43d4206b19e28ad8265c[m
+Author: edumu <eduardoaum2007@gmail.com>
+Date:   Mon Jun 16 23:01:41 2025 -0300
+
+    icon
+
+[33mcommit 10aa75241585174c7074270e2376e64954bdacd4[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/ajustes-eduardo[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32majustes-eduardo[m[33m)[m
+Merge: f73a65c 917451a
+Author: Eduardo Muller <eduardoaum2007@gmail.com>
+Date:   Mon Jun 16 22:49:17 2025 -0300
+
+    Merge pull request #12
+    
+    Ajustes samuel
+
+[33mcommit 917451a059f8a9707c05c91462acdbf39241060d[m[33m ([m[1;31morigin/ajustes-samuel-3[m[33m)[m
+Author: Samuel <147870470+schevve@users.noreply.github.com>
+Date:   Sun Jun 15 17:52:36 2025 -0300
+
+    ajustes em comentários e botao whats
+
+[33mcommit 52af72e271ef334f00cf0e83c3dec8e70af3a126[m
+Author: Samuel <147870470+schevve@users.noreply.github.com>
+Date:   Sun Jun 15 01:38:54 2025 -0300
+
+    ajustes no rodapé
+    ajustes de responsividade na seção de livros
+
+[33mcommit eb56408ecff2a4a9ec18ac7256174db5f69aae36[m
+Author: Samuel <147870470+schevve@users.noreply.github.com>
+Date:   Sun Jun 15 01:13:10 2025 -0300
+
+    esconder o botão do Whatsapp fixado quando o rodapé aparece no viewport
+    início da seção "sobre"
+
+[33mcommit d0af7df5492a1888a6671906f4705a50a6f0290e[m
+Author: Samuel <147870470+schevve@users.noreply.github.com>
+Date:   Sat Jun 14 20:13:36 2025 -0300
+
+    título história
+
+[33mcommit 0f3c8403dbf48f96c629d1105228b175a58e2efd[m
+Author: Samuel <147870470+schevve@users.noreply.github.com>
+Date:   Sat Jun 14 20:06:44 2025 -0300
+
+    responsividade footer
+
+[33mcommit 3ac5f59c6d4da6409e48a019017343a86745fa63[m
+Author: Samuel <147870470+schevve@users.noreply.github.com>
+Date:   Sat Jun 14 19:36:40 2025 -0300
+
+    ajustes em responsividade
+
+[33mcommit c96183966a726c5f2333f988a79a6b62514ed6fd[m
+Author: Samuel <147870470+schevve@users.noreply.github.com>
+Date:   Sat Jun 14 18:04:15 2025 -0300
+
+    seção de materiais agora scrolla até o material, em vez de só trocar
+
+[33mcommit c735e22417f619c49e7f51735d8a5f59012b1655[m
+Author: Samuel <147870470+schevve@users.noreply.github.com>
+Date:   Sat Jun 14 16:43:58 2025 -0300
+
+    inserida imagem chamariz mobile em cursos.html
+    ajustes nos botões dos materiais
+
+[33mcommit fc1b8cdb4c5d9bf8867e17deb9e6d4a75868349b[m
+Author: Samuel <147870470+schevve@users.noreply.github.com>
+Date:   Fri Jun 13 10:22:42 2025 -0300
+
+    cards mobile retornam ao scrollar além delas
+
+[33mcommit 2f0105221f239c53cb7d2a9b7c28da6c3f48a7de[m
+Author: Samuel <147870470+schevve@users.noreply.github.com>
+Date:   Thu Jun 12 23:41:26 2025 -0300
+
+    cards doidos pra mobile que giram quando scrollados
+
+[33mcommit f73a65c53c25f7ed08aed90b8ff6b148cbb64e4e[m
+Merge: 2fcd2cb 1afb126
+Author: Samuel <147870470+schevve@users.noreply.github.com>
+Date:   Thu Jun 12 15:50:40 2025 -0300
+
+    Merge pull request #11 from schevve/samuel-ajustes-2
+    
+    ajustes na header e nos cards, merge branch samuel-ajustes-2 na main
+
+[33mcommit 1afb1269b7d9d92d64ca21e626e2cb15374719a0[m
+Author: Samuel <147870470+schevve@users.noreply.github.com>
+Date:   Thu Jun 12 02:40:54 2025 -0300
+
+    melhorias nos cards
+
+[33mcommit 45fd97455fbcb2750237b3f904302823111bb7db[m
+Author: Samuel <147870470+schevve@users.noreply.github.com>
+Date:   Thu Jun 12 01:38:05 2025 -0300
+
+    menor opacidade do header
+    adicionado chamariz para mobile
+    selo ia atualizado
+
+[33mcommit 2fcd2cbb817a1d173055a4ecc5577d5914c51d5a[m
+Merge: 64f5ec6 ed14007
+Author: Eduardo Muller <eduardoaum2007@gmail.com>
+Date:   Wed Jun 11 19:49:38 2025 -0300
+
+    Merge pull request #10 from schevve/samuel-ajustes-2
+    
+    Samuel ajustes 2
+
+[33mcommit ed14007f25a926b35fe1ec92e4378786dbc70b1a[m
+Author: Samuel <147870470+schevve@users.noreply.github.com>
+Date:   Wed Jun 11 17:18:48 2025 -0300
+
+    ajustes nos cards
+
+[33mcommit 59e1ee9424072a5902f9a5f49af36f6b0e79ed28[m
+Author: Samuel <147870470+schevve@users.noreply.github.com>
+Date:   Wed Jun 11 16:41:05 2025 -0300
+
+    🖕
+
+[33mcommit 94e2da2e7ae5bb7cfa812f88b3269a36459e922e[m
+Author: Samuel <147870470+schevve@users.noreply.github.com>
+Date:   Wed Jun 11 16:37:19 2025 -0300
+
+    responsividade em cursos.html
+
+[33mcommit f73484686b35a437e63e474dfb0fec27aafe2c53[m
+Author: schevve <samuel.scardoso2004@gmail.com>
+Date:   Tue Jun 10 21:27:30 2025 -0300
+
+    AAAAAAAAAAAAAAAAAAAAAAAA
+    
+    AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+
+[33mcommit a3995af5ceb9db95f95f912392f2efe062163cfa[m
+Author: Samuel <147870470+schevve@users.noreply.github.com>
+Date:   Tue Jun 10 17:39:55 2025 -0300
+
+    adicionado menu mobile em todas as paginas
+
+[33mcommit bddbc7648b35d89e1ad8254a9fd8b86f3e60fa16[m
+Author: Samuel <147870470+schevve@users.noreply.github.com>
+Date:   Tue Jun 10 17:16:11 2025 -0300
+
+    melhorias no menu
+
+[33mcommit f1d26146b44b5ba4161602ea7b9a23e2999e8bd7[m
+Author: Samuel <147870470+schevve@users.noreply.github.com>
+Date:   Mon Jun 9 22:03:36 2025 -0300
+
+    navbar para mobile na pagina inicial
+
+[33mcommit 880400bcffa32ac2deb8a2c063468e530b744dc4[m
+Author: Samuel <147870470+schevve@users.noreply.github.com>
+Date:   Mon Jun 9 21:15:56 2025 -0300
+
+    inseridas imagens próprias para os livros dos cursos teens e adults
+
+[33mcommit 79e7709c3ca737ff7bbb89cb44af4fda331ae69a[m
+Author: Samuel <147870470+schevve@users.noreply.github.com>
+Date:   Mon Jun 9 21:09:22 2025 -0300
+
+    inseridas imagens próprias dos livros do curso kids
+
+[33mcommit 32a66a2d6905fa1736892794cff49a2065f96855[m
+Author: Samuel <147870470+schevve@users.noreply.github.com>
+Date:   Mon Jun 9 21:04:48 2025 -0300
+
+    trocar svg pelo correto
+
+[33mcommit a656ffa3594022190bb7d045caf8826105299a44[m
+Author: Samuel <147870470+schevve@users.noreply.github.com>
+Date:   Mon Jun 9 20:59:44 2025 -0300
+
+    adicionado svgs dos ícones das características dos cursos (crime?)
+
+[33mcommit 664c2bee37fdc03c8094985062f76042f16905fc[m
+Author: Samuel <147870470+schevve@users.noreply.github.com>
+Date:   Mon Jun 9 20:51:11 2025 -0300
+
+    pagina adults, ajustes finos nas paginas de cursos
+
+[33mcommit 64f5ec6ec72befdefd106c7b5aec2654a1898d6e[m
+Merge: 4e981f8 79e7471
+Author: Eduardo Muller <eduardoaum2007@gmail.com>
+Date:   Sun Jun 8 01:09:54 2025 -0300
+
+    Merge pull request #9
+    
+    teens e responsividade de kids/teens completo
+
+[33mcommit 79e7471e3c82f4ac282bf44e6da76c4e526354ed[m[33m ([m[1;31morigin/comentarios[m[33m)[m
+Author: edumu <eduardoaum2007@gmail.com>
+Date:   Sun Jun 8 01:08:55 2025 -0300
+
+    teens e responsividade de kids/teens completo
+
+[33mcommit 4e981f8dae242f85496dc29c433a3df3a331f6cd[m
+Merge: 317529a 86a6394
+Author: Eduardo Muller <eduardoaum2007@gmail.com>
+Date:   Sat Jun 7 18:10:05 2025 -0300
+
+    Merge pull request #8
+    
+    Kids estrutura finalizada
+
+[33mcommit 86a63947767cc3c1efbc0c573ea9f7041cf341ed[m
+Author: edumu <eduardoaum2007@gmail.com>
+Date:   Sat Jun 7 18:06:58 2025 -0300
+
+    kids finalizada
+
+[33mcommit a3fc8836757dc64fa63b99a9bebc7ea700c9c562[m
+Author: edumu <eduardoaum2007@gmail.com>
+Date:   Sat Jun 7 17:33:02 2025 -0300
+
+    comentarios
+
+[33mcommit 317529a59221bda92278742dabcc0a0d5f17735f[m
+Merge: a1b3647 3e06ee5
+Author: Eduardo Muller <eduardoaum2007@gmail.com>
+Date:   Sat Jun 7 10:30:49 2025 -0300
+
+    Merge pull request #7 from schevve/pagina-kids-teens-adults
+    
+    Pagina kids
+
+[33mcommit 3e06ee5e4ae27bfebb4d10e7b1e3ac083af3c37f[m
+Author: Samuel <147870470+schevve@users.noreply.github.com>
+Date:   Fri Jun 6 15:24:58 2025 -0300
+
+    mais seções do site kids
+
+[33mcommit 262de1b17ab7b4a0802294941f97130a6e826a8b[m
+Author: Samuel <147870470+schevve@users.noreply.github.com>
+Date:   Fri Jun 6 15:24:42 2025 -0300
+
+    normalização
+
+[33mcommit 5288a593f0d803bfbc832cb1814446f5a0040144[m
+Author: Samuel <147870470+schevve@users.noreply.github.com>
+Date:   Fri Jun 6 03:43:29 2025 -0300
+
+    feita a seção de livros
+    TODO: aplicativo, avaliações; e responsividade ainda inexiste
+
+[33mcommit 06f545c76af06caa1ae2290e04efc116c56964a3[m
+Author: Samuel <147870470+schevve@users.noreply.github.com>
+Date:   Fri Jun 6 02:59:52 2025 -0300
+
+    -- famoso save pra nao perder nada --
+    feitos alguns ajustes no heading pra não quebrar em telas menores
+    iniciado o corpo da página
+
+[33mcommit cc9e83c91b58f413cd4b73d3b5f97fb870bf04ff[m
+Author: schevve <samuel.scardoso2004@gmail.com>
+Date:   Thu Jun 5 22:14:00 2025 -0300
+
+    asdfjklç
+
+[33mcommit 9a4688513c534288a90f6edb4630281d33b978f3[m
+Author: schevve <samuel.scardoso2004@gmail.com>
+Date:   Thu Jun 5 21:10:09 2025 -0300
+
+    inicio do design e correções das cagadas do sago
+
+[33mcommit a1b3647b42a6ac1fcd7a28d4145cad93d7c75562[m
+Merge: 1d92b94 3719208
+Author: Eduardo Muller <eduardoaum2007@gmail.com>
+Date:   Wed Jun 4 20:35:01 2025 -0300
+
+    Merge pull request #6 from schevve/samuel-ajustes
+    
+    ajustes de padding, margem e cor
+
+[33mcommit 3719208527ebe9f7afd7d3b073f7da377588ad61[m
+Author: Samuel <samuel.scardoso2004@gmail.com>
+Date:   Mon Jun 2 21:48:51 2025 -0300
+
+    ajustes de padding, margem e cor
+
+[33mcommit 1d92b94c908eb2bd9e6fad5254503c9354c4aade[m
+Author: edumu <eduardoaum2007@gmail.com>
+Date:   Mon Jun 2 19:46:40 2025 -0300
+
+    font page completa
+
+[33mcommit c1871eeb3b6d209538fa8a5ab9910107eee6bf12[m
+Author: edumu <eduardoaum2007@gmail.com>
+Date:   Sun Jun 1 22:29:40 2025 -0300
+
+    ajustes finais de responsividade + whats button
+
+[33mcommit 601b78427772cb03813d7857435f81dfa3b78316[m
+Author: Samuel <147870470+schevve@users.noreply.github.com>
+Date:   Sun Jun 1 18:36:01 2025 -0300
+
+    position:static no container da imagem, agora o width depende da imagem
+
+[33mcommit d84d5bd9ca04613f3d91b7566e248d3c3b7fce39[m
+Author: Samuel <147870470+schevve@users.noreply.github.com>
+Date:   Sun Jun 1 18:24:43 2025 -0300
+
+    responsividade nos cards
+
+[33mcommit 4a4330ddb82842b660b4108783aa643a5afc3b00[m
+Author: edumu <eduardoaum2007@gmail.com>
+Date:   Sun Jun 1 16:43:19 2025 -0300
+
+    ajustes
+
+[33mcommit 066e8eeac6cb0a7958ef5c70f85179a378beb589[m
+Merge: 36423b2 ed725b2
+Author: Eduardo Muller <eduardoaum2007@gmail.com>
+Date:   Sat May 31 19:02:29 2025 -0300
+
+    Merge 5
+    
+    Cards flip
+
+[33mcommit 36423b25c2988aba3e5bb78e484855930167c19e[m
+Merge: c004f2d def3c47
+Author: Eduardo Muller <eduardoaum2007@gmail.com>
+Date:   Sat May 31 19:00:37 2025 -0300
+
+    Merge/julio
+    
+    Julio - cabeçalho - ''little mudanças"?
+
+[33mcommit def3c47a677d9e27924f2328cb21f8fb2779e110[m
+Merge: 2d6fee6 c004f2d
+Author: Eduardo Muller <eduardoaum2007@gmail.com>
+Date:   Sat May 31 19:00:19 2025 -0300
+
+    Merge branch 'main' into Julio
+
+[33mcommit 2d6fee6f5f357cda5e1d07d1b1f8f7d8ae333111[m
+Author: Julio Cesar Honório <julincapixaba@gmail.com>
+Date:   Fri May 30 19:08:16 2025 -0300
+
+    Little mudanças
+
+[33mcommit ed725b2f47a47609e4461b78a657cb1972425017[m
+Author: Samuel <samuel.scardoso2004@gmail.com>
+Date:   Thu May 29 20:55:17 2025 -0300
+
+    feitos os cards que flipam quando o mouse passa em cima
+
+[33mcommit 239ee431889ebeabcf0b7c243649f724ce8c3df7[m
+Author: Julio Cesar Honório <julincapixaba@gmail.com>
+Date:   Thu May 29 20:14:53 2025 -0300
+
+    Adição dos cabeçalhos
+
+[33mcommit c004f2dbb3ae3b069a65a71b6b996c1612cecada[m
+Merge: c3f6975 b337f37
+Author: Eduardo Muller <eduardoaum2007@gmail.com>
+Date:   Thu May 29 19:47:17 2025 -0300
+
+    Merge pull request #3 from schevve/eduardo
+    
+    alinhamento
+
+[33mcommit b337f37c8867de45082a59059673a155917f0c4b[m
+Author: edumu <eduardoaum2007@gmail.com>
+Date:   Thu May 29 19:46:04 2025 -0300
+
+    alinhamento
+
+[33mcommit 17f556a83050321c566a92b8b0f17425ae479e97[m
+Author: edumu <eduardoaum2007@gmail.com>
+Date:   Mon May 26 21:29:41 2025 -0300
+
+    escolha de cursos
+
+[33mcommit c3f6975862c3a870425c766deb90d8be339bd4de[m
+Merge: 75339fb ce6b2fc
+Author: Eduardo Muller <eduardoaum2007@gmail.com>
+Date:   Mon May 26 19:42:06 2025 -0300
+
+    Merge pull request #2 from schevve/organização
+    
+    Header+chamariz+metodo exclusivo
+
+[33mcommit ce6b2fc2585f0f5fbd00dd6fc9d23161d8706a1b[m
+Author: edumu <eduardoaum2007@gmail.com>
+Date:   Mon May 26 19:30:29 2025 -0300
+
+    metodo exclusivo
+
+[33mcommit 701e0c26bda4be2685976e72595f0e97f0e3014e[m
+Author: edumu <eduardoaum2007@gmail.com>
+Date:   Sun May 25 14:50:25 2025 -0300
+
+    'método exclusivo'
+
+[33mcommit 7d09e18ff0b2d40c84a515ade1435b0499b8bd6b[m
+Author: edumu <eduardoaum2007@gmail.com>
+Date:   Sun May 25 02:45:55 2025 -0300
+
+    header + chamariz - HTML e css
+
+[33mcommit 75339fbd924447e924b01847230aed7c4eaa07d9[m
+Merge: 2c581cd a7ac895
+Author: Samuel <147870470+schevve@users.noreply.github.com>
+Date:   Mon May 19 19:10:00 2025 -0300
+
+    Merge pull request #1 from schevve/organização
+    
+    Organização
+
+[33mcommit a7ac8950498a2f70f6cd3b44bd7ca9bc5cc2ae6c[m
+Author: edumu <eduardoaum2007@gmail.com>
+Date:   Mon May 19 00:02:36 2025 -0300
+
+    figma no pagina-inicial
+
+[33mcommit 90d1f81df13df77b7b0ad480d941794da3142cfc[m
+Author: edumu <eduardoaum2007@gmail.com>
+Date:   Sun May 18 23:57:08 2025 -0300
+
+    organização do site pós figma
+
+[33mcommit 2c581cd0f087598aee237414ce26620f8d9e59e4[m
+Author: edumu <eduardoaum2007@gmail.com>
+Date:   Wed May 14 21:47:28 2025 -0300
+
+    promoção p2
+
+[33mcommit 23eb7986515213f98ce3aa84375af6c15f6d7fd0[m
+Author: edumu <eduardoaum2007@gmail.com>
+Date:   Wed May 14 20:53:03 2025 -0300
+
+    promoçoes
+
+[33mcommit 25c103b21f3960cd86f2322ba2fbc759fa3eecec[m
+Author: edumu <eduardoaum2007@gmail.com>
+Date:   Mon May 12 21:46:13 2025 -0300
+
+    parte inicial do site
+
+[33mcommit d18f970e7d1a1b5b2311ef829457ffb0bf04e8d8[m
+Author: Samuel <samuel.scardoso2004@gmail.com>
+Date:   Fri Apr 25 20:04:24 2025 -0300
+
+    fixed color
+
+[33mcommit a0b1b7e94c396be49f18cf66a95e6f3ea28f7956[m
+Author: Samuel <samuel.scardoso2004@gmail.com>
+Date:   Fri Apr 25 19:50:51 2025 -0300
+
+    changed navbar style
+
+[33mcommit c64c048cb57e171b7b1cf1c5a465fb9c61457c2a[m
+Author: Samuel <samuel.scardoso2004@gmail.com>
+Date:   Fri Apr 25 19:25:31 2025 -0300
+
+    added navbar
+
+[33mcommit 3edb9336e6c5d9f6d41495d5624a340bf796e557[m
+Author: Shanu7002 <eduardoaum2007@gmail.com>
+Date:   Thu Apr 10 20:59:25 2025 -0300
+
+    HTML start
+
+[33mcommit e40819f3da3103adeae5692294e2ac5ff922202a[m
+Author: Samuel <samuel.scardoso2004@gmail.com>
+Date:   Thu Apr 10 20:13:39 2025 -0300
+
+    idem
+
+[33mcommit c8ec3ee2f82c95fdf478a770633d329bf127197c[m
+Author: Samuel <samuel.scardoso2004@gmail.com>
+Date:   Thu Apr 10 20:11:51 2025 -0300
+
+    criado pastas, index.html e styles.css
+
+[33mcommit 571ef4338a7d2cb5bfcf18c1bf0cc7e3e314c531[m
+Author: Samuel <147870470+schevve@users.noreply.github.com>
+Date:   Fri Apr 4 19:31:08 2025 -0300
+
+    Initial commit
