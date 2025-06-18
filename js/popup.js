@@ -3,7 +3,7 @@ function mostrarPopup() {
         setTimeout(() => {
           document.getElementById("popup").style.display = "flex";
           sessionStorage.setItem("popupMostrado", "true");
-        }, 3000); // mostra após 3 segundos
+        }, 8000); // mostra após 3 segundos
       }
     }
 
