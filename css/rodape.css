@@ -73,6 +73,9 @@ a,
     .imagem-footer {
         display: none;
     }
+    .imagem-footer-container {
+        display: none;
+    }
 }
 
 @media screen and (max-width: 425px) {
