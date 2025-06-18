@@ -33,7 +33,7 @@ a,
     color: white;
 }
 
-a:hover {
+.footer a:hover {
     text-decoration: underline;
 }
 
@@ -71,6 +71,9 @@ a:hover {
     }
 
     .imagem-footer {
+        display: none;
+    }
+    .imagem-footer-container {
         display: none;
     }
 }
