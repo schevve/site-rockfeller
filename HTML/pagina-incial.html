@@ -20,7 +20,9 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- fontes -->
     <link rel="stylesheet" href="../css/verlag.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
     <!-- /fontes -->
     <script src="../js/popup.js"></script>
     <script src="../js/mobile_navbar.js"></script>
@@ -29,7 +31,12 @@
 </head>
 
 <body>
-    
+    <div id="popup" class="popup">
+        <div class="popup-content">
+            <span class="close" onclick="fecharPopup()">&times;</span>
+            <img class="popup-imagem" src="../Image/popup-imagem.png">
+        </div>
+    </div>
     <header>
         <div class="chamariz">
             <a href="cursos.html" class="container-imagem-chamariz">
@@ -40,34 +47,35 @@
             <nav class="navbar">
                 <div class="imagem-logo">
                     <a href="pagina-incial.html">
-                        <img src="../Image/rockfeller-language-center-logotipo-topo.jpg" alt="Rockfeller logo" width="250">
-                </a>
-            </div>
-            <ul class="nav-links">
-                <li class="opçoes-cursos">
-                    <a href="cursos.html">Cursos</a>
-                    <ul class="opçoes-menu">
-                        <li><a href="kids.html">Kids</a></li>
-                        <li><a href="teens.html">Teens</a></li>
-                        <li><a href="adults.html">Adults</a></li>
-                        <li><a href="cursos.html">Todos os cursos</a></li>
-                    </ul>
-                </li>
-                <li class="botao-header">
-                    <a href="teste-seu-ingles" class="botao-teste-seu-ingles">Teste seu inglês</a>
-                </li>
-            </ul>
-            <a class="mobile-navbar-icone" onclick="mobileNavbar()">
-                    <span class="fa fa-bars"></span>
-            </a>
-            <div class="mobile-navbar-container" id="mobileNavbar">
-                <div class="mobile-navbar-items">
-                    <a href="kids.html">Kids</a>
-                    <a href="teens.html">Teens</a>
-                    <a href="adults.html">Adults</a>
-                    <a href="cursos.html">Todos os cursos</a>
+                        <img src="../Image/rockfeller-language-center-logotipo-topo.jpg" alt="Rockfeller logo"
+                            width="250">
+                    </a>
                 </div>
-            </div>
+                <ul class="nav-links">
+                    <li class="opçoes-cursos">
+                        <a href="cursos.html">Cursos</a>
+                        <ul class="opçoes-menu">
+                            <li><a href="kids.html">Kids</a></li>
+                            <li><a href="teens.html">Teens</a></li>
+                            <li><a href="adults.html">Adults</a></li>
+                            <li><a href="cursos.html">Todos os cursos</a></li>
+                        </ul>
+                    </li>
+                    <li class="botao-header">
+                        <a href="teste-seu-ingles" class="botao-teste-seu-ingles">Teste seu inglês</a>
+                    </li>
+                </ul>
+                <a class="mobile-navbar-icone" onclick="mobileNavbar()">
+                    <span class="fa fa-bars"></span>
+                </a>
+                <div class="mobile-navbar-container" id="mobileNavbar">
+                    <div class="mobile-navbar-items">
+                        <a href="kids.html">Kids</a>
+                        <a href="teens.html">Teens</a>
+                        <a href="adults.html">Adults</a>
+                        <a href="cursos.html">Todos os cursos</a>
+                    </div>
+                </div>
             </nav>
         </div>
     </header>
@@ -75,39 +83,43 @@
         <div class="metodo-titulo">O Método Rockfeller</div>
         <div class="metodo-exclusivo">
             <div class="metodo-1">
-                <img class="metodo-img" src="../Image/Selo IA.png" alt="IA">
+                <img class="metodo-img" src="../Image/IA-metodo.png" alt="IA">
                 <div class="titulo-metodo-1">
                     <h3>Tecnologia exclusiva com IA</h3>
                 </div>
                 <div class="texto-metodo-1">
-                    <p>"Cutting-edge AI technology" - Nossa IA proprietária auxilia em todos os aspectos do aprendizado: grámatica, pronúncia, vocabulário, conversação e compreensão auditiva, tudo em tempo real</p>
+                    <p>"Cutting-edge AI technology" - Nossa IA proprietária auxilia em todos os aspectos do aprendizado:
+                        grámatica, pronúncia, vocabulário, conversação e compreensão auditiva, tudo em tempo real</p>
                 </div>
             </div>
             <div class="metodo-2">
-                <img class="metodo-img" src="../Image/teste.svg" alt="metodologia-adaptativa">
+                <img class="metodo-img" src="../Image/adaptative-learning.png" alt="metodologia-adaptativa">
                 <div class="titulo-metodo-2">
                     <h3>Metodologia adaptativa</h3>
                 </div>
                 <div class="texto-metodo-2">
-                    <p>"Adaptative Learning" - Conteúdos e exercícios que se adaptam ao seu ritmo e estilo de aprendizado para máximo aproveitamento</p>
+                    <p>"Adaptative Learning" - Conteúdos e exercícios que se adaptam ao seu ritmo e estilo de
+                        aprendizado para máximo aproveitamento</p>
                 </div>
             </div>
             <div class="metodo-3">
-                <img class="metodo-img" src="../Image/nativos.svg" alt="professores-estrangeiros">
+                <img class="metodo-img" src="../Image/native-speakers.png" alt="professores-estrangeiros">
                 <div class="titulo-metodo-3">
                     <h3>Professores nativos</h3>
                 </div>
                 <div class="texto-metodo-3">
-                    <p>"Native Speakers" - Interaja com professores da países como EUA, Reino Unido, Canadá e Austrália para um inglês autêntico</p>
+                    <p>"Native Speakers" - Interaja com professores da países como EUA, Reino Unido, Canadá e Austrália
+                        para um inglês autêntico</p>
                 </div>
             </div>
             <div class="metodo-4">
-                <img class="metodo-img" src="../Image/dashboard.svg" alt="dashboards">
+                <img class="metodo-img" src="../Image/progress-tracking.png" alt="dashboards">
                 <div class="titulo-metodo-4">
                     <h3>Dashboard de progresso</h3>
                 </div>
                 <div class="texto-metodo-4">
-                    <p>"Progress Tracking" - Acompanhe sua evolução em tempo real com métricas e análises detalhadas sobre seu desempenho</p>
+                    <p>"Progress Tracking" - Acompanhe sua evolução em tempo real com métricas e análises detalhadas
+                        sobre seu desempenho</p>
                 </div>
             </div>
         </div>
@@ -121,7 +133,9 @@
                         <img class="card-img" src="../Image/Kids.webp" alt="Imagem-de-uma-criança">
                     </div>
                     <div class="card-back">
-                        <div class="texto-card">As crianças são imersas em um universo lúdico e multidisciplinar, priorizando a fala, escuta, leitura e escrita através de aulas multimídias, projetos imersivos, músicas tradicionais, jogos e brincadeiras.</div>
+                        <div class="texto-card">As crianças são imersas em um universo lúdico e multidisciplinar,
+                            priorizando a fala, escuta, leitura e escrita através de aulas multimídias, projetos
+                            imersivos, músicas tradicionais, jogos e brincadeiras.</div>
                         <div class="botao-card"><a href="kids.html">Presencial</a></div>
                     </div>
                 </div>
@@ -133,7 +147,9 @@
                         <img class="card-img" src="../Image/Teens.webp" alt="Imagem-de-um-adolescente">
                     </div>
                     <div class="card-back">
-                        <div class="texto-card">Nosso exclusivo método conta com dois formatos de ensino, os alunos que preferem ir até a escola e estudar no modelo presencial, e temos a opção Live, com as mesmas aulas, materiais e professores, de onde você quiser.</div>
+                        <div class="texto-card">Nosso exclusivo método conta com dois formatos de ensino, os alunos que
+                            preferem ir até a escola e estudar no modelo presencial, e temos a opção Live, com as mesmas
+                            aulas, materiais e professores, de onde você quiser.</div>
                         <div class="botao-card"><a href="teens.html">Presencial</a></div>
                     </div>
                 </div>
@@ -145,7 +161,9 @@
                         <img class="card-img" src="../Image/Adults.webp" alt="Imagem-de-um-adulto">
                     </div>
                     <div class="card-back">
-                        <div class="texto-card">Nossa metodologia exclusiva pode ser realizada com aulas presenciais ou com a nossa modalidade Live, assim você estuda de onde quiser com professores qualificados, materiais exclusivos e turmas reduzidas.</div>
+                        <div class="texto-card">Nossa metodologia exclusiva pode ser realizada com aulas presenciais ou
+                            com a nossa modalidade Live, assim você estuda de onde quiser com professores qualificados,
+                            materiais exclusivos e turmas reduzidas.</div>
                         <div class="botao-card"><a href="adults.html">Presencial</a></div>
                     </div>
                 </div>
@@ -153,7 +171,8 @@
         </div>
         <div class="botao-texto">
             <div class="titulo-select">Nosso inglês te prepara para o futuro</div>
-            <div class="texto-select">O curso ideal para você está aqui, presencial ou online com professores ao vivo.</div>
+            <div class="texto-select">O curso ideal para você está aqui, presencial ou online com professores ao vivo.
+            </div>
             <a href="cursos.html" class="botao-quero-conhecer-os-cursos">QUERO CONHECER OS CURSOS</a>
         </div>
     </div>
@@ -164,12 +183,19 @@
                 <img src="../Image/Rockfeller_fachada.jpg" alt="Foto da fachada da Rockfeller Toledo">
             </div>
             <div class="texto-historia">
-                <p class="paragrafo-historia">Inaugurada em janeiro de 2015, no centro de Toledo, a Rockfeller veio suprir a demanda de quem precisa aprender inglês de forma rápida e eficiente.</p>
+                <p class="paragrafo-historia">Inaugurada em janeiro de 2015, no centro de Toledo, a Rockfeller veio
+                    suprir a demanda de quem precisa aprender inglês de forma rápida e eficiente.</p>
+                <p class="paragrafo-historia">Com os nossos valores como: Comprometimento, Respeito e Senso de Equipe,
+                    buscamos sempre satisfazer as pessoas por meio da excelência no ensino de idiomas e na prestação de
+                    serviços.</p>
             </div>
         </div>
         <div class="secao-historia">
             <div class="texto-historia">
-                <p class="paragrafo-historia">Nesses 10 anos em Toledo conquistamos um lugar de destaque dentre as escolas de idiomas. Com uma metodologia exclusiva e moderna, oferecemos diversos diferenciais, como turmas reduzidas e niveladas, acompanhamento pedagógico constante e curso completo para adultos em apenas 5 semestres.</p>
+                <p class="paragrafo-historia">Nesses 10 anos em Toledo conquistamos um lugar de destaque dentre as
+                    escolas de idiomas. Com uma metodologia exclusiva e moderna, oferecemos diversos diferenciais, como
+                    turmas reduzidas e niveladas, acompanhamento pedagógico constante e curso completo para adultos em
+                    apenas 5 semestres.</p>
             </div>
             <div class="img-historia">
                 <img src="../Image/metodologia-adaptativa.png" alt="">
@@ -180,7 +206,10 @@
                 <img src="../Image/Rockfeller_sala_de_aula.jpg" alt="">
             </div>
             <div class="texto-historia">
-                <p class="paragrafo-historia">Nossa estrutura também é um diferencial. Dispomos de um ambiente amplo e confortável, com espaços para estudos, leitura e também entretenimento. As salas de aulas são preparadas para incentivar a conversação entre os alunos e o desenvolvimento da língua. Cada detalhe é pensado para facilitar o aprendizado.</p>
+                <p class="paragrafo-historia">Nossa estrutura também é um diferencial. Dispomos de um ambiente amplo e
+                    confortável, com espaços para estudos, leitura e também entretenimento. As salas de aulas são
+                    preparadas para incentivar a conversação entre os alunos e o desenvolvimento da língua. Cada detalhe
+                    é pensado para facilitar o aprendizado.</p>
             </div>
         </div>
     </div>
@@ -199,8 +228,8 @@
             <li><a href="cursos.html">Todos os cursos</a></li>
         </ul>
         <div class="contato">
-            <div class="entre-em-contato">Entre em contato</div>
             <div class="endereço">Teledo-PR - Bairro - Rua D. Pedro II - 1581</div>
+            <div class="entre-em-contato">Entre em contato</div>
             <div class="telefone">Comercial: (45) 9 8407-0294</div>
             <div class="telefone">Alunos: (45) 9 9900-4060</div>
             <ul class="redes-sociais">
