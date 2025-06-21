@@ -115,7 +115,7 @@ header {
 }
 
 .opçoes-menu li a:hover {
-    background-color: #ffff;
+    background-color: darkblue;
 }
 
 .nav-links li:hover .opçoes-menu {
