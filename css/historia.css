@@ -29,10 +29,11 @@
     margin-bottom: 2em;
 }
 
-.img-historia{
+.img-historia {
     width: 55%;
 }
-.img-historia > img{
+
+.img-historia>img {
     width: 100%;
     height: 20em;
     object-fit: cover;
@@ -41,31 +42,26 @@
     display: block;
 }
 
-.texto-historia{
+.texto-historia {
     width: 45%;
 }
 
-.paragrafo-historia{
 
-}
-
-.paragrafo-historia + .paragrafo-historia{
+.paragrafo-historia+.paragrafo-historia {
     margin-top: 1em;
 }
 
-.highlight-historia{
+.highlight-historia {
     color: white;
     background-color: #0068de;
 }
 
 .texto-valores {
-    /* font-family: arial; */
     font-size: 15px;
     text-align: left;
 }
 
 .texto-missao {
-    /* font-family: Arial; */
     font-size: 15px;
     text-align: left;
 }
@@ -86,11 +82,12 @@
 }
 
 @media screen and (max-width: 768px) {
-    .secao-historia{
+    .secao-historia {
         flex-direction: column;
     }
 
-    .img-historia, .texto-historia{
+    .img-historia,
+    .texto-historia {
         width: 100%;
     }
 }

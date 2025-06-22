@@ -10,13 +10,11 @@ html {
 .titulo-matricula {
   text-align: center;
   margin-bottom: 30px;
-  /*margin-right: 50px;*/
   font-size: 40px;
   font-weight: bold;
 }
 .texto-matricula p{
     text-align: center;
-    /*font-family: Arial;*/
     font-size: 25px;
 }
 
