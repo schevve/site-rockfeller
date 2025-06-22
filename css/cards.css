@@ -1,19 +1,9 @@
-/*
-    TROCAR ESSE VALOR PARA AJUSTAR A ALTURA DOS CARDS
-*/
 :root {
     --height: 30em;
     --orange: #FF9500;
     --blue: #0068DF;
     --dark-blue: #003f7c;
     --yellow: #FFC033;
-}
-
-@media screen and (max-width: 768px) {
-    .cards-container{
-        flex-direction: column;
-    }
-    
 }
 
 .card {
@@ -102,4 +92,11 @@
 
 .botao-card > a{
     font-size: 1.5em;
+}
+
+@media screen and (max-width: 768px) {
+    .cards-container{
+        flex-direction: column;
+    }
+    
 }
