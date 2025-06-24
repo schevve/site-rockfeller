@@ -19,7 +19,7 @@
 }
 
 .titulo-descricao {
-    font-size: 3em;
+    font-size: 2em;
     color: var(--orange);
     margin-bottom: 1rem;
 }
@@ -59,7 +59,7 @@
 }
 
 .container-livros-cursos {
-    width: 60%;
+    width: 80%;
     display: flex;
     justify-content: center;
     gap: 1em;
