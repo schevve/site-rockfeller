@@ -6,7 +6,7 @@
 }
 
 .chamada-comentarios{
-    color: orange;
+    color: var(--blue);
     font-weight: bold;
     font-size: 30px;
     text-align: left;
@@ -90,7 +90,7 @@
 
 @media screen and (max-width: 1024px){
   .chamada-comentarios{
-      margin-left: 115px;
+      width: 70%;
     }
 }
 @media screen and (max-width: 768px){
@@ -103,7 +103,6 @@
         max-width: 260px;
     }
     .chamada-comentarios{
-        margin-left: 60px;
         font-size: 25px;
     }
 }
