@@ -1,6 +1,6 @@
 :root {
     --orange: #FF9500;
-    --blue: #0378FD;
+    --blue: #0068DF;
     --dark-blue: #033864;
     --yellow: #FFE710;
 }
@@ -68,7 +68,7 @@
 
 .livros-cursos {
     width: 30%;
-    background: linear-gradient(118deg, rgba(88, 149, 219, 1) 0%, rgba(20, 113, 219, 1) 50%, rgba(88, 149, 219, 1) 100%);
+    background: linear-gradient(118deg, rgba(88, 149, 219, 1) 0%, var(--blue) 50%, var(--blue) 100%);
     padding: 1em;
     border-radius: 0.5em;
     border-color: white;
