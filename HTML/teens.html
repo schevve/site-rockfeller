@@ -252,16 +252,16 @@
             </div>
         </div>
         <div id="matricula" class="matricula">
-            <h2 class="titulo-matricula">Faça a matricula aqui:</h2>
+            <h2 class="titulo-matricula">Faça a matrícula aqui:</h2>
             <div class="conteudo-matricula">
                 <div class="texto-matricula">
                     <p>Garanta já a vaga do seu filho!</p>
                     <p>Preencha o formulário ao lado e entraremos em contato com mais informações.</p>
                 </div>
-                <form class="formulario-matricula">
-                    <input type="text" placeholder="Nome completo" required>
-                    <input type="email" placeholder="E-mail" required>
-                    <input type="tel" placeholder="Telefone" required>
+                <form class="formulario-matricula" method="post" action="/matricula">
+                    <input name="nome" type="text" placeholder="Nome completo" required>
+                    <input name="email" type="email" placeholder="E-mail" required>
+                    <input name="tel" type="tel" placeholder="Telefone" required>
                     <button type="submit">Enviar</button>
                 </form>
             </div>
