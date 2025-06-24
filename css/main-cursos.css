@@ -64,6 +64,7 @@
     justify-content: center;
     gap: 1em;
     flex-wrap: wrap;
+    hyphens: auto;
 }
 
 .livros-cursos {
