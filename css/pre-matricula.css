@@ -92,9 +92,13 @@ html {
 
 @media screen and (max-width: 425px){
     .conteudo-matricula p{
-      margin-left: 60px;
+      margin-left: 0px;
+      max-width: unset;
     }
     .conteudo-matricula h2{
       margin-left: 40px;
+    }
+    .conteudo-matricula{
+      margin-left: 0;
     }
 }
