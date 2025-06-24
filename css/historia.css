@@ -85,6 +85,9 @@
     .secao-historia {
         flex-direction: column;
     }
+    .secao-historia.inv{
+        flex-direction: column-reverse;
+    }
 
     .img-historia,
     .texto-historia {
