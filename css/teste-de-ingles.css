@@ -6,9 +6,11 @@ body {
 
 .titulo {
     font-size: 35px;
-    color: orange;
+    color: white;
     text-align: center;
     font-weight: bold;
+    margin-bottom: 1em;
+    font-family: 'Verlag';
 }
 
 .pergunta {
