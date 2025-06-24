@@ -1,5 +1,5 @@
 .footer {
-    background-color: #0378fd;
+    background-color: var(--blue);
     padding: 15px 15px;
     position: relative;
     display: flex;
@@ -85,10 +85,17 @@ a,
     }
 
     .contato{
+        align-items: center;
         text-align: center;
         width: 100%;
     }
     .endereço{
         text-align: center;
+    }
+    .footer-links{
+        align-items: center;
+    }
+    .titulo-links{
+        margin-bottom: 0.1em;
     }
 }
