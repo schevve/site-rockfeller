@@ -37,7 +37,7 @@
     width: 100%;
     height: 20em;
     object-fit: cover;
-    object-position: left;
+    object-position: center;
     border-radius: 30px;
     display: block;
 }
@@ -92,5 +92,8 @@
     .img-historia,
     .texto-historia {
         width: 100%;
+    }
+    .img-historia.ext > img{
+        object-position: 30%;
     }
 }
