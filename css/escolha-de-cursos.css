@@ -133,4 +133,7 @@
     .select{
         flex-direction: column;
     }
+    .botao-quero-conhecer-os-cursos{
+        max-width: 90%;
+    }
 }
