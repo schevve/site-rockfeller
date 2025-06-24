@@ -3,8 +3,8 @@ html {
 }
 .matricula {
   padding: 40px;
-  background-color: #FFD700;
-  border-radius: 10px;
+  background-color: #0068df;
+  color:white;
 }
 
 .titulo-matricula {
@@ -49,7 +49,7 @@ html {
 
 .formulario-matricula button {
   padding: 10px;
-  background-color: #003afa;
+  background-color: var(--orange);
   color: white;
   border: none;
   border-radius: 5px;
