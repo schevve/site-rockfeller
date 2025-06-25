@@ -79,6 +79,10 @@ header {
     border-top-width: 0.1em;
 }
 
+.mobile-navbar-items > .teste-ingles-button{
+    background-color: #0068DF;
+}
+
 .opçoes-cursos>a::after {
     content: " ▼";
     font-size: 12px;
